@@ -102,3 +102,12 @@ Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouise
 - Gönderim: Gmail `send_message`, to = Başak'ın kendi adresi, `htmlBody` = atlas.html içeriği, `attachments` = mail.json'daki liste (inline). Base64 yazma; dosya referansı kullan.
 - Erişim (ouisecretvie-studio ortamı): açık → Koton, Desa, Damat Tween, Bluemint, Derimod, Lovy Atelier, Arzu Kaprol, Ceren Ocak, Gizia, Pantone. **Bot korumalı (açılmıyor)** → Beymen, Network, Sneaks Up: korumayı atlatmaya çalışma; bu sitelerdeki ürünler için fiyatı web aramasıyla teyit et, stok doğrulanamazsa kampanya satırına "stok doğrulanamadı" yaz.
 - Kolaj görseli mutlaka beyaz fonlu ürün çekimi olmalı (betik köşe rengi koyuysa UYARI basar).
+
+## Pinterest "Kombin" panosu (secretvie) — 23.11.2026 analizi
+
+- Okuma: `https://www.pinterest.com/secretvie/kombin.rss` (son ~25 pin; görseller i.pinimg.com, `/236x/` → `/474x/`). Ortamda pinterest.com ve i.pinimg.com açık. Her Stil Atlası öncesi panoya bak, son eklenen pinleri ilham olarak kullan.
+- **Palet:** çikolata kahve + siyah baskın; camel, krem/ekru, gri; vurgu olarak lacivert (Pantone 19-3953 Sodalite Blue pini) ve bordo (Pantone kartlı pin). Pantone kartlı pinleri seviyor.
+- **Sık parçalar:** süet/deri kahve ceket, kürk/shearling, kaşe kaban; sheer şifon kemerli bluz (Loro Piana tarzı); dökümlü/drape siyah korse üst; ispanyol paça ve düz paça pantolon, siyah maxi kalem/drape etek, koyu jean; kalın tabanlı kahve/siyah rugan loafer (GETSTYLED pinlerinde sık), sivri stiletto ve slingback, diz boyu kahve çizme; yapılı kahve çanta (YSL, Celine, Hermès Birkin tipi, Polène/Toteme), kapitone çanta; altın damla/dome küpe, kaplumbağa güneş gözlüğü, ipek eşarp, ince kemer, dikdörtgen altın saat.
+- **Kolaj dili:** beyaz fonda üst üste binen ürünler (GETSTYLED by Sarah, Styled by Claire) — bizim 1080×1350 formatla aynı. Bazı pinlerde marka etiketleri ve Pantone kartı var.
+- **Not:** Panoda kalın tabanlı loafer çok var; eylüldeki "kalın taban elenir" kuralı panoyla çelişiyor. Başak'a sorulana kadar kalın tabanlı loafer serbest kabul edilebilir, ama kombin başına en fazla bir tane.
+- Son eklenenler (5 ve 23 Kasım): kahve-siyah lüks akşam (sheer bluz + Hermès + AUI), siyah korse/drape üst + maxi etek, kahve kapitone ceket + New Balance (sporty), süet ceket + gri tişört + rugan loafer.
