@@ -4,14 +4,14 @@ Kaynak: "Kombin sohbeti" oturum dökümü (30.08–17.11.2026). Pinterest hesab�
 
 ## Kalıcı kurallar (Başak'ın geri bildirimleri)
 
-- **Beymen yok.** Ürünler markaların kendi sitelerinden, tercihen az bilinen Türk markalarından.
-- **Orta boy topuk asla.** Ya düz (ince tabanlı loafer, babet) ya da ince stiletto (akşam). Kalın taban / kalın topuk elenir.
+- **Marka karışımı (23.11 güncel):** 8 Kasım gibi karışık. Lüks markalar Beymen'den olabilir; yanında Türk markaları (Koton, Network, Desa, Damat Tween, Dossha, Bluemint, Derimod, Lovy Atelier, Arzu Kaprol...). Hepsini tek satıcıdan çekme.
+- **Topuk serbest (23.11 güncel):** 8 Kasım gibi; 6 cm topuklu bot, 9,5 cm stiletto, düz loafer hepsi olabilir. (Eylüldeki "orta topuk yok" kuralı kaldırıldı.)
 - **Canlı renk yok** (neon, fuşya, elektrik mavisi, canlı kırmızı). Sıcak nötrler; altın yalnızca takıda.
 - **Tarz sözlüğü = terzi işi.** Kalıplı/kruvaze ceket, kalem veya pili etek, düz paça pantolon, beyaz gömlek, yapılı çanta, altın takı. Gri flanel, taş, tüvit.
 - Banal, "babaanne" kalıpsız elbiseler ve gala/abiye görünümü (straplez, payet) yok.
-- Gündüz: topuk yok. Akşam: ince topuk ve portföy serbest.
 - Kitsch detay yok (ör. hasır üstüne dudak işlemesi).
-- Kolaj: beyaz fon flat-lay, 1000×1500 (2:3), 7 parça, toplam ~45–52k TL, hepsi stokta.
+- **Bütçe kombine göre değişir (23.11 güncel):** biri uygun, biri orta, biri lüks. Sabit 45–52k sınırı yok. Hepsi stokta olmalı.
+- Kolaj formatı için aşağıdaki "Pin formatı" ve "STİL ATLASI" bölümlerine bak (1080×1350).
 - Dolar/sterlin satan markalar dışarıda (TL toplamı bozuluyor).
 - Doğrulanmamış indirim/fiyat yazılmaz.
 
