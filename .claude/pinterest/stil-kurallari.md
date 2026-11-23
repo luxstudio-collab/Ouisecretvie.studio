@@ -63,7 +63,9 @@ Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouise
 
 - Metricool marka ID 8308769, hesap `secretvie`. Kombin panosu: **Stylechic✨** (board id 336151628376723122). Diğer ilgili panolar: Kombin (336151628376713506), Winter Looks🤍 (336151628376736777).
 - Görsel: repodaki dosyanın commit SHA'lı raw.githubusercontent.com linki (repo herkese açık).
-- Pin linki: tüm ürünler istendiği için açıklama dosyasının GitHub sayfası. Pin açıklaması ≤500 karakter, başlık ≤100.
+- **Pin linki = kombinin ana parçasının ürün sayfası** (insanlar tıklayıp satın alabilsin). GitHub linki KULLANMA (açılmıyor, 23.11'de Başak bildirdi). Diğer parçalar açıklamada marka + ürün adıyla. Pin açıklaması ≤500 karakter, başlık ≤100.
+- İstenirse her parça için ayrı ürün pini (o ürünün linkiyle) de açılabilir.
+- Yayınlanmış pinin linki Metricool'dan değişmez; Pinterest'te "Pini düzenle → Web sitesi" alanından elle değiştirilir.
 - İlk pin: 23.11.2026 17:45, Lacivert & Bitter.
 
 ## STİL ATLASI — günlük mail formatı (referans: "Stil Atlası · 8 Kasım · Günün kombinleri", Başak'ın beğendiği)
