@@ -58,3 +58,10 @@ Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouise
   - AW26 notu: Pantone NYFW AW26 paletinde kahve (19-1521 Red Mahogany) ile derin okyanus mavisi (19-4033 Poseidon) aynı sezon paletinde. Başak'ın yorumu: kahve + siyah uyar ama **patlatan lacivert**. Kahve kombinlerde vurgu rengi olarak lacivert dene.
 - **Her gün yeni bir influencer / hesap incelenir** ve bulgular kombin diline eklenir (hesap adı, öne çıkan 3 kombin kodu, alınacak fikir).
 - **Özel günler ve etkinlikler** her plan öncesi kontrol edilir; kombinler buna göre kurulur (ör. Öğretmenler Günü, Black Friday, yılbaşı, moda haftaları).
+
+## Pinterest paylaşım ayarları
+
+- Metricool marka ID 8308769, hesap `secretvie`. Kombin panosu: **Stylechic✨** (board id 336151628376723122). Diğer ilgili panolar: Kombin (336151628376713506), Winter Looks🤍 (336151628376736777).
+- Görsel: repodaki dosyanın commit SHA'lı raw.githubusercontent.com linki (repo herkese açık).
+- Pin linki: tüm ürünler istendiği için açıklama dosyasının GitHub sayfası. Pin açıklaması ≤500 karakter, başlık ≤100.
+- İlk pin: 23.11.2026 17:45, Lacivert & Bitter.
