@@ -245,9 +245,11 @@ export default function Artwork({
   priority,
   sizes = "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw",
 }: Props) {
+  // Keep "absolute" from the caller instead of overriding it with "relative".
+  const position = /\babsolute\b/.test(className) ? "" : "relative";
   return (
     <div
-      className={`relative overflow-hidden bg-surface ${className}`}
+      className={`${position} overflow-hidden bg-surface ${className}`}
       role={image ? undefined : "img"}
       aria-label={image ? undefined : alt}
     >

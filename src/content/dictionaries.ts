@@ -50,6 +50,20 @@ const en = {
     ],
     closingTitle: "A new table every week",
     closingBody: "Follow the studio on Instagram and see the next one first.",
+    scroll: "Scroll",
+    stats: [
+      { value: "06", label: "tables imagined" },
+      { value: "03", label: "languages" },
+      { value: "01", label: "new table every week" },
+    ],
+    weekEyebrow: "Table of the week",
+    weekBody:
+      "A long ivory table, dozens of candles and the cold light of winter on old stone. The idea is simple: let the season set the table, then let the candles warm it.",
+    weekCta: "Save it for your next table",
+    collectionTitle: "The collection",
+    followTitle: "Follow the table",
+    followBody: "Each week a new table appears on Instagram first. Come and see where it is set.",
+    floating: "Instagram",
   },
   gallery: {
     eyebrow: "The collection",
@@ -58,6 +72,9 @@ const en = {
     concept: "AI concept",
     comingSoon: "Image coming soon",
     palette: "Palette",
+    filterLabel: "Filter tables",
+    filters: { all: "All", stone: "Stone & ruins", seasons: "Seasons", nature: "Nature" },
+    count: "tables",
   },
   about: {
     eyebrow: "The studio",
@@ -145,6 +162,20 @@ const tr: Dictionary = {
     ],
     closingTitle: "Her hafta yeni bir sofra",
     closingBody: "Stüdyoyu Instagram'da takip et, bir sonrakini ilk sen gör.",
+    scroll: "Kaydır",
+    stats: [
+      { value: "06", label: "hayal edilmiş sofra" },
+      { value: "03", label: "dil" },
+      { value: "01", label: "her hafta yeni sofra" },
+    ],
+    weekEyebrow: "Haftanın sofrası",
+    weekBody:
+      "Fildişi uzun bir masa, onlarca mum ve eski taşların üzerine düşen soğuk kış ışığı. Fikir basit: sofrayı mevsim kursun, mumlar ısıtsın.",
+    weekCta: "Bir sonraki sofran için kaydet",
+    collectionTitle: "Koleksiyon",
+    followTitle: "Sofrayı takip et",
+    followBody: "Her hafta yeni bir sofra önce Instagram'da kuruluyor. Gel, nerede kurulduğunu gör.",
+    floating: "Instagram",
   },
   gallery: {
     eyebrow: "Koleksiyon",
@@ -153,6 +184,9 @@ const tr: Dictionary = {
     concept: "Yapay zekâ konsepti",
     comingSoon: "Görsel yakında",
     palette: "Renkler",
+    filterLabel: "Sofraları filtrele",
+    filters: { all: "Tümü", stone: "Taş ve kalıntılar", seasons: "Mevsimler", nature: "Doğa" },
+    count: "sofra",
   },
   about: {
     eyebrow: "Stüdyo",
@@ -238,6 +272,20 @@ const fr: Dictionary = {
     ],
     closingTitle: "Une nouvelle table chaque semaine",
     closingBody: "Suivez le studio sur Instagram et découvrez la prochaine en premier.",
+    scroll: "Défiler",
+    stats: [
+      { value: "06", label: "tables imaginées" },
+      { value: "03", label: "langues" },
+      { value: "01", label: "nouvelle table chaque semaine" },
+    ],
+    weekEyebrow: "La table de la semaine",
+    weekBody:
+      "Une longue table ivoire, des dizaines de bougies et la lumière froide de l'hiver sur la vieille pierre. L'idée est simple : laisser la saison dresser la table, puis les bougies la réchauffer.",
+    weekCta: "Gardez-la pour votre prochaine table",
+    collectionTitle: "La collection",
+    followTitle: "Suivre la table",
+    followBody: "Chaque semaine, une nouvelle table apparaît d'abord sur Instagram. Venez voir où elle est dressée.",
+    floating: "Instagram",
   },
   gallery: {
     eyebrow: "La collection",
@@ -246,6 +294,9 @@ const fr: Dictionary = {
     concept: "Concept IA",
     comingSoon: "Image bientôt disponible",
     palette: "Palette",
+    filterLabel: "Filtrer les tables",
+    filters: { all: "Toutes", stone: "Pierre & ruines", seasons: "Saisons", nature: "Nature" },
+    count: "tables",
   },
   about: {
     eyebrow: "Le studio",

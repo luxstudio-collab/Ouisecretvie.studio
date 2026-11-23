@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingInstagram from "@/components/FloatingInstagram";
 import { getDictionary } from "@/content/dictionaries";
 import { hasLocale, locales, site } from "@/content/site";
 
@@ -92,6 +93,7 @@ export default async function RootLayout({
           {children}
         </main>
         <Footer lang={lang} dict={dict} />
+        <FloatingInstagram label={dict.home.floating} />
       </body>
     </html>
   );

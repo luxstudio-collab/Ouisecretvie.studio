@@ -11,9 +11,14 @@ export type ArtVariant =
 
 type Localized = Record<Locale, string>;
 
+// Used by the filter on the Tables page.
+export const groups = ["stone", "seasons", "nature"] as const;
+export type Group = (typeof groups)[number];
+
 export type Concept = {
   id: string;
   art: ArtVariant;
+  group: Group;
   // To show a real image: put the file in /public/gallery and write its path
   // here, e.g. "/gallery/red-table.jpg". Leave empty to show the placeholder.
   image?: string;
@@ -27,6 +32,7 @@ export const concepts: Concept[] = [
   {
     id: "red-table",
     art: "red",
+    group: "stone",
     title: {
       en: "The Red Table",
       tr: "Kırmızı Masa",
@@ -47,6 +53,7 @@ export const concepts: Concept[] = [
   {
     id: "winter-dinner",
     art: "winter",
+    group: "seasons",
     title: {
       en: "A Winter Dinner",
       tr: "Bir Kış Akşamı",
@@ -67,6 +74,7 @@ export const concepts: Concept[] = [
   {
     id: "among-the-columns",
     art: "columns",
+    group: "stone",
     title: {
       en: "Among the Columns",
       tr: "Sütunların Arasında",
@@ -87,6 +95,7 @@ export const concepts: Concept[] = [
   {
     id: "dinner-in-the-ruins",
     art: "ruins",
+    group: "stone",
     title: {
       en: "Dinner in the Ruins",
       tr: "Kalıntılarda Akşam Yemeği",
@@ -107,6 +116,7 @@ export const concepts: Concept[] = [
   {
     id: "velvet-and-bronze",
     art: "velvet",
+    group: "seasons",
     title: {
       en: "Velvet & Bronze",
       tr: "Kadife ve Bronz",
@@ -127,6 +137,7 @@ export const concepts: Concept[] = [
   {
     id: "olive-grove",
     art: "olive",
+    group: "nature",
     title: {
       en: "Lunch in the Olive Grove",
       tr: "Zeytinlikte Öğle Yemeği",
