@@ -51,3 +51,10 @@ Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouise
   Beyaz fon ürün çekimi olanlar: Bluemint, Arzu Kaprol, Derimod (img0), Lovy Atelier (img0; sonraki görseller kutu).
 - `aciklama-<kombin>.txt`: başlık, 2-3 cümle yorum, numaralı parça listesi (marka, fiyat, link), toplam.
 - Betikler: `scripts/pinterest/collage2.py` (yerleşim), `desc.py` (açıklama), `white.py` (beyaz fon görsel seçimi). Çıktılar `pinterest/<tarih>/`.
+
+## Kalıcı iş akışı kuralları (23.11.2026'da Başak'tan)
+
+- **Renk uyumu Pantone'dan kontrol edilir.** Her kombinin paleti Pantone'un sezon raporları / renk harmonileriyle karşılaştırılır (pantone.com; ağ izni yoksa pantone.com sonuçlarıyla web araması).
+  - AW26 notu: Pantone NYFW AW26 paletinde kahve (19-1521 Red Mahogany) ile derin okyanus mavisi (19-4033 Poseidon) aynı sezon paletinde. Başak'ın yorumu: kahve + siyah uyar ama **patlatan lacivert**. Kahve kombinlerde vurgu rengi olarak lacivert dene.
+- **Her gün yeni bir influencer / hesap incelenir** ve bulgular kombin diline eklenir (hesap adı, öne çıkan 3 kombin kodu, alınacak fikir).
+- **Özel günler ve etkinlikler** her plan öncesi kontrol edilir; kombinler buna göre kurulur (ör. Öğretmenler Günü, Black Friday, yılbaşı, moda haftaları).
