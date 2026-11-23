@@ -1,0 +1,19 @@
+{
+ "subject": "Stil Atlası · 23 Kasım · Panodan · Günün kombinleri",
+ "htmlBodyFile": "/home/user/Ouisecretvie.studio/pinterest/2026-11-23-pano/atlas.html",
+ "attachments": [
+  {
+   "content": "sha256:6a718810a331efe8ee48a1acda9a6d5364c90a4ec85416e74ad4ce0fcb76a560:/home/user/Ouisecretvie.studio/pinterest/2026-11-23-pano/01-pano-suet-antrasit-instagram.jpg",
+   "filename": "01-pano-suet-antrasit-instagram.jpg",
+   "mimeType": "image/jpeg",
+   "inline": true
+  },
+  {
+   "content": "sha256:a1db28c81d901dff53cdce207a372a13ace85eb1ce5887010c835ea6768fa746:/home/user/Ouisecretvie.studio/pinterest/2026-11-23-pano/02-pano-siyah-dantel-instagram.jpg",
+   "filename": "02-pano-siyah-dantel-instagram.jpg",
+   "mimeType": "image/jpeg",
+   "inline": true
+  }
+ ],
+ "not": "htmlBody = atlas.html içeriği; ekler bu sırayla cid:att0..attN-1"
+}
