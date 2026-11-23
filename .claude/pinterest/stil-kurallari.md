@@ -1,4 +1,4 @@
-> **TAŞINDI (23.11.2026):** Bu dosya ve tüm Pinterest/Instagram çalışması artık **luxstudio-collab/Pinterest** reposunun `main` dalında. Buradaki kopya güncellenmiyor.
+> **TAŞINDI (23.11.2026):** Bu dosya ve Pinterest çalışması (kurallar, betikler, kombin çıktıları) artık **luxstudio-collab/Pinterest** reposunun `main` dalında; buradaki kopya güncellenmiyor. Instagram dosyaları (`.claude/instagram`, `ig-*` skill'leri) bu repoda kalıyor.
 
 # Ouisecretvie — Pinterest stil kuralları ve kombin geçmişi
 
