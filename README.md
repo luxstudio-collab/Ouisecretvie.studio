@@ -1,6 +1,6 @@
 # Ouisecretvie Studio · web sitesi
 
-*where ideas breathe* — www.ouisecretvie.store
+*where ideas breathe* — https://ouisecretvie.vercel.app
 
 Next.js 16, TypeScript ve Tailwind CSS ile yapılmış, üç dilli (EN · TR · FR)
 bir web sitesi. iPad ve telefonda rahat kullanılacak şekilde tasarlandı.

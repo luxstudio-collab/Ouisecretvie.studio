@@ -16,7 +16,7 @@ export const localeNames: Record<Locale, string> = {
 export const site = {
   name: "Ouisecretvie Studio",
   monogram: "OSV",
-  url: "https://www.ouisecretvie.store",
+  url: "https://ouisecretvie.vercel.app",
   instagram: {
     handle: "@ouisecretvie.studio",
     url: "https://www.instagram.com/ouisecretvie.studio/",
