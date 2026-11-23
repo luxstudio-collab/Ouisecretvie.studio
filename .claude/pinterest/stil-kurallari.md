@@ -1,3 +1,5 @@
+> **TAŞINDI (23.11.2026):** Bu dosya ve tüm Pinterest/Instagram çalışması artık **luxstudio-collab/Pinterest** reposunun `main` dalında. Buradaki kopya güncellenmiyor.
+
 # Ouisecretvie — Pinterest stil kuralları ve kombin geçmişi
 
 Kaynak: "Kombin sohbeti" oturum dökümü (30.08–17.11.2026). Pinterest hesabı: `secretvie` (Metricool marka ID 8308769, saat dilimi Europe/Istanbul).
