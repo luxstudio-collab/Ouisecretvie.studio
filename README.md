@@ -11,6 +11,8 @@ bir web sitesi. iPad ve telefonda rahat kullanılacak şekilde tasarlandı.
 |---|---|
 | `/en`, `/tr`, `/fr` | Ana Sayfa |
 | `/…/gallery` | Sofralar (konsept galerisi) |
+| `/…/looks` | Kombinler (liste) |
+| `/…/looks/<kombin>` | Kombin sayfası: kolaj + her ürünün mağaza linki. Pinterest pinleri buraya yönlenir. |
 | `/…/about` | Hakkında |
 | `/…/contact` | İletişim |
 
@@ -23,6 +25,7 @@ Ziyaretçi `/` adresine girince telefonunun diline göre otomatik olarak
 |---|---|
 | Sitedeki tüm yazılar (3 dil) | `src/content/dictionaries.ts` |
 | Sofra konseptleri (galeri) | `src/content/gallery.ts` |
+| Kombinler ve ürün linkleri | `src/content/looks.json` (kolajlar `public/looks/`) |
 | Instagram, e-posta, alan adı | `src/content/site.ts` |
 | Renkler | `src/app/globals.css` (en üstteki `:root` bölümü) |
 

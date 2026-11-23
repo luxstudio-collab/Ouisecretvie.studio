@@ -1,0 +1,309 @@
+[
+ {
+  "slug": "lacivert-bitter",
+  "date": "2026-11-23",
+  "title": "Lacivert & Bitter",
+  "subtitle": "Kasım gündüz",
+  "gender": "kadin",
+  "formula": "Lacivert blazer ve pileli pantolon takım gibi duruyor, içindeki camel ipek-yün triko yüzü aydınlatıyor. Kahve süet loafer ile deri çanta laciverdi patlatıyor; Pantone'un AW26 paletinde de kahve ile derin mavi yan yana. Altın sadece bileklikte.",
+  "image": "/looks/lacivert-bitter.jpg",
+  "items": [
+   {
+    "category": "Üst",
+    "brand": "Bluemint",
+    "name": "DARIA ipek-yün polo yaka triko, camel",
+    "price": 3600.0,
+    "url": "https://www.bluemint.com/products/daria-walnut-triko"
+   },
+   {
+    "category": "Dış giyim",
+    "brand": "Bluemint",
+    "name": "LANA yün blazer, lacivert",
+    "price": 11000.0,
+    "url": "https://www.bluemint.com/products/lana-nuit-dis-giyim"
+   },
+   {
+    "category": "Alt",
+    "brand": "Bluemint",
+    "name": "DORA pileli pantolon, lacivert",
+    "price": 4000.0,
+    "url": "https://www.bluemint.com/products/dora-nuit-pantolon"
+   },
+   {
+    "category": "Çanta",
+    "brand": "Derimod",
+    "name": "Kadın Kahverengi Uzun Askılı Klasik Kol Çantası",
+    "price": 5999.0,
+    "url": "https://www.derimod.com.tr/products/kadin-kahverengi-uzun-askili-klasik-kol-cantasi-ab590002sv-5637145360"
+   },
+   {
+    "category": "Saat",
+    "brand": "Lovy Atelier",
+    "name": "Ogi Bileklik",
+    "price": 4400.0,
+    "url": "https://lovyatelier.com/products/ogi-bileklik"
+   },
+   {
+    "category": "Ayakkabı",
+    "brand": "Derimod",
+    "name": "Kadın Kahverengi Tokalı Süet Deri Maskülen Loafer",
+    "price": 5999.0,
+    "url": "https://www.derimod.com.tr/products/kadin-kahverengi-tokali-suet-deri-maskulen-loafer-af180019ds-5637145360"
+   },
+   {
+    "category": "Güneş gözlüğü",
+    "brand": "Bluemint",
+    "name": "JAVIER güneş gözlüğü, kahve cam",
+    "price": 7600.0,
+    "url": "https://www.bluemint.com/products/javier-brown-shade-gunes-gozlugu"
+   },
+   {
+    "category": "Küpe",
+    "brand": "Lovy Atelier",
+    "name": "Moni Küpe",
+    "price": 4000.0,
+    "url": "https://lovyatelier.com/products/tanura-i̇nci-kupe-kopya"
+   }
+  ]
+ },
+ {
+  "slug": "lacivert-camel",
+  "date": "2026-11-23",
+  "title": "Lacivert & Camel",
+  "subtitle": "Hafta sonu",
+  "gender": "erkek",
+  "formula": "Lacivert yün ceketin altında camel triko ve kahve fitilli kadife: Pantone'un bu sezon önerdiği kahve + derin mavi eşleşmesi. Boyunda koyu kahve örgü atkı, ayakta süet chelsea; dalgıç saat ve kaplumbağa gözlük hafta sonunu tamamlıyor.",
+  "image": "/looks/lacivert-camel.jpg",
+  "items": [
+   {
+    "category": "Üst",
+    "brand": "Bluemint",
+    "name": "MIKE triko, camel",
+    "price": 5200.0,
+    "url": "https://www.bluemint.com/products/mike-camel-triko"
+   },
+   {
+    "category": "Dış giyim",
+    "brand": "Bluemint",
+    "name": "DACK %100 yün ceket, lacivert",
+    "price": 12800.0,
+    "url": "https://www.bluemint.com/products/dack-dark-navy-ceket"
+   },
+   {
+    "category": "Alt",
+    "brand": "Bluemint",
+    "name": "EMORY fitilli kadife pantolon, kahve",
+    "price": 7400.0,
+    "url": "https://www.bluemint.com/products/emory-brown-pantolon"
+   },
+   {
+    "category": "Çanta",
+    "brand": "Bluemint",
+    "name": "RINO yün atkı, koyu kahve",
+    "price": 3400.0,
+    "url": "https://www.bluemint.com/products/rino-brown-atki"
+   },
+   {
+    "category": "Saat",
+    "brand": "Bluemint",
+    "name": "BM Watch Oceanic 43 mm, siyah",
+    "price": 11900.0,
+    "url": "https://www.bluemint.com/products/bm-watch-oceanic-b79-001-43-mm-kol-saati"
+   },
+   {
+    "category": "Ayakkabı",
+    "brand": "Derimod",
+    "name": "Erkek Kahverengi Süet Deri Chelsea Bot",
+    "price": 4799.0,
+    "url": "https://www.derimod.com.tr/products/erkek-kahverengi-suet-deri-chelsea-bot-wm610001ds-5637145360"
+   },
+   {
+    "category": "Güneş gözlüğü",
+    "brand": "Bluemint",
+    "name": "SMITH güneş gözlüğü, kaplumbağa",
+    "price": 6200.0,
+    "url": "https://www.bluemint.com/products/smith-brown-turtle-shade-gunes-gozlugu"
+   }
+  ]
+ },
+ {
+  "slug": "siyah-camel",
+  "date": "2026-11-23",
+  "title": "Siyah & Camel",
+  "subtitle": "Kasım akşamı",
+  "gender": "kadin",
+  "formula": "Camel palto açılınca altından drapeli siyah bluz ve kalem etek çıkıyor. Kahve stiletto ince topuklu, portföy süet. Işık inci küpede ve zirkon bileklikte, altın çerçeve gözlük de akşam güneşi için.",
+  "image": "/looks/siyah-camel.jpg",
+  "items": [
+   {
+    "category": "Üst",
+    "brand": "Arzu Kaprol",
+    "name": "Siyah Drapeli Kolsuz Bluz",
+    "price": 5500.0,
+    "url": "https://arzukaprol.com/products/beyaz-drapeli-kolsuz-bluz-copy"
+   },
+   {
+    "category": "Dış giyim",
+    "brand": "Bluemint",
+    "name": "SOPHIA kruvaze yün palto, camel",
+    "price": 14800.0,
+    "url": "https://www.bluemint.com/products/sophia-camel-dis-giyim"
+   },
+   {
+    "category": "Alt",
+    "brand": "Arzu Kaprol",
+    "name": "Fermuar Detaylı Siyah Kalem Etek",
+    "price": 8750.0,
+    "url": "https://arzukaprol.com/products/siyah-etek-2"
+   },
+   {
+    "category": "Çanta",
+    "brand": "Derimod",
+    "name": "Kadın Kahverengi Zincir Askılı Süet Portföy Çanta",
+    "price": 2749.0,
+    "url": "https://www.derimod.com.tr/products/kadin-kahverengi-zincir-askili-suet-portfoy-canta-wb570007ss-5637145360"
+   },
+   {
+    "category": "Saat",
+    "brand": "Lovy Atelier",
+    "name": "Tanur Bileklik",
+    "price": 5400.0,
+    "url": "https://lovyatelier.com/products/tanur-bileklik"
+   },
+   {
+    "category": "Ayakkabı",
+    "brand": "Derimod",
+    "name": "Kadın Kahverengi İnce Topuklu Deri Stiletto",
+    "price": 7499.0,
+    "url": "https://www.derimod.com.tr/products/kadin-kahverengi-ince-topuklu-deri-stiletto-af200006dv-5637145360"
+   },
+   {
+    "category": "Güneş gözlüğü",
+    "brand": "Bluemint",
+    "name": "IVES güneş gözlüğü, altın çerçeve",
+    "price": 7600.0,
+    "url": "https://www.bluemint.com/products/ives-gold-shade-gunes-gozlugu"
+   },
+   {
+    "category": "Küpe",
+    "brand": "Lovy Atelier",
+    "name": "Tanura İnci Küpe",
+    "price": 6600.0,
+    "url": "https://lovyatelier.com/products/tanura-i̇nci-kupe"
+   }
+  ]
+ },
+ {
+  "slug": "panodan-suet-antrasit",
+  "date": "2026-11-23",
+  "title": "Panodan: Süet, Bej ve Antrasit Jean",
+  "subtitle": "Pinterest panosundan",
+  "gender": "kadin",
+  "formula": "Kahve süet ceketi bej trikonun üstüne aç, yıkanmış antrasit düz jeanle dengele, ayakta parlak kalın tabanlı püsküllü loafer, omuzda süet tote, yüzde kaplumbağa gözlük; Pinterest'te kaydettiğimiz GETSTYLED by Sarah kombininin alınabilir hâli.",
+  "image": "/looks/panodan-suet-antrasit.jpg",
+  "items": [
+   {
+    "category": "Triko",
+    "brand": "Bluemint",
+    "name": "LENA yün karışımlı triko, bej",
+    "price": 4200.0,
+    "url": "https://www.bluemint.com/products/lena-beige-triko"
+   },
+   {
+    "category": "Ceket",
+    "brand": "Derimod",
+    "name": "Trix kahverengi oversize süet deri ceket",
+    "price": 18999.0,
+    "url": "https://www.derimod.com.tr/products/trix-kadin-kahverengi-oversize-suet-deri-ceket-26wgd570510-5637145516"
+   },
+   {
+    "category": "Jean",
+    "brand": "Bluemint",
+    "name": "NAYA düz paça jean, yıkanmış antrasit",
+    "price": 4000.0,
+    "url": "https://www.bluemint.com/products/naya-dark-grey-pantolon"
+   },
+   {
+    "category": "Çanta",
+    "brand": "Bluemint",
+    "name": "SOFIA süet tote, kahve",
+    "price": 8400.0,
+    "url": "https://www.bluemint.com/products/sofia-brown-canta"
+   },
+   {
+    "category": "Ayakkabı",
+    "brand": "Derimod",
+    "name": "Siyah kalın tabanlı püsküllü deri loafer",
+    "price": 5999.0,
+    "url": "https://www.derimod.com.tr/products/kadin-siyah-kalin-tabanli-puskullu-deri-loafer-af450009dv-5637145339"
+   },
+   {
+    "category": "Güneş gözlüğü",
+    "brand": "Bluemint",
+    "name": "MILTON yuvarlak, kahve kaplumbağa",
+    "price": 6200.0,
+    "url": "https://www.bluemint.com/products/milton-brown-gunes-gozlugu"
+   },
+   {
+    "category": "Küpe",
+    "brand": "Lovy Atelier",
+    "name": "Moni inci küpe, altın",
+    "price": 4000.0,
+    "url": "https://lovyatelier.com/products/tanura-i̇nci-kupe-kopya"
+   }
+  ]
+ },
+ {
+  "slug": "panodan-siyah-dantel",
+  "date": "2026-11-23",
+  "title": "Panodan: Siyah Blazer ve Dantel Kalem",
+  "subtitle": "Pinterest panosundan",
+  "gender": "kadin",
+  "formula": "Belden oturan siyah blazeri dantel panelli kalem etekle tek renk kur, sivri stiletto ve kapitone zincir portföyle bitir, ışığı inci küpe ve zirkon bileklikte tut; Pinterest'teki @styledbyttia akşam kombininin alınabilir hâli.",
+  "image": "/looks/panodan-siyah-dantel.jpg",
+  "items": [
+   {
+    "category": "Blazer",
+    "brand": "Ceren Ocak",
+    "name": "Single-Breasted Blazer, siyah, belden oturan",
+    "price": 29790.0,
+    "url": "https://cerenocak.com/products/single-breasted-blazer"
+   },
+   {
+    "category": "Etek",
+    "brand": "Ceren Ocak",
+    "name": "Tailored Lace Skirt, siyah dantel panelli kalem etek",
+    "price": 25500.0,
+    "url": "https://cerenocak.com/products/tailored-lace-skirt"
+   },
+   {
+    "category": "Çanta",
+    "brand": "Derimod",
+    "name": "Siyah uzun zincir askılı kapitone portföy",
+    "price": 2749.0,
+    "url": "https://www.derimod.com.tr/products/kadin-siyah-uzun-zincir-askili-kapitone-portfoy-canta-wb57000753-5637145339"
+   },
+   {
+    "category": "Ayakkabı",
+    "brand": "Derimod",
+    "name": "Siyah 9,5 cm ince topuklu sivri deri stiletto",
+    "price": 7999.0,
+    "url": "https://www.derimod.com.tr/products/kadin-siyah-ince-topuklu-deri-stiletto-af210002dv-5637145339"
+   },
+   {
+    "category": "Bileklik",
+    "brand": "Lovy Atelier",
+    "name": "Tanur zirkon taşlı bileklik",
+    "price": 5400.0,
+    "url": "https://lovyatelier.com/products/tanur-bileklik"
+   },
+   {
+    "category": "Küpe",
+    "brand": "Lovy Atelier",
+    "name": "Tisya inci küpe",
+    "price": 7800.0,
+    "url": "https://lovyatelier.com/products/tisya-kupe"
+   }
+  ]
+ }
+]
