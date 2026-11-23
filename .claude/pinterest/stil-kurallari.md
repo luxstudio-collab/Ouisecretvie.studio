@@ -65,3 +65,33 @@ Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouise
 - Görsel: repodaki dosyanın commit SHA'lı raw.githubusercontent.com linki (repo herkese açık).
 - Pin linki: tüm ürünler istendiği için açıklama dosyasının GitHub sayfası. Pin açıklaması ≤500 karakter, başlık ≤100.
 - İlk pin: 23.11.2026 17:45, Lacivert & Bitter.
+
+## STİL ATLASI — günlük mail formatı (referans: "Stil Atlası · 8 Kasım · Günün kombinleri", Başak'ın beğendiği)
+
+**Konu:** `Stil Atlası · <gün> <Ay> · Günün kombinleri` — kendine (Başak'ın adresine) gönderilir.
+
+**Kurgu: 5 kombin**
+1. KOMBİN 1 · kadın · bir ikon/influencer'dan (8 Kasım: Caroline de Maigret, "az ama doğru" Paris formülü)
+2. KOMBİN 2 · kadın · renk bloklama / sezon paleti (8 Kasım: Leonie Hanne + Pantone Cloud Dancer, SK 26/27)
+3. KOMBİN 3 · kadın · Türk ikon (8 Kasım: Ece Sükan, İstanbul '70, süet ve altın)
+4. KOMBİN 4 · **sporty şık** kadın (8 Kasım: Dilara Aydın; dikişsiz fermuarlı ceket, wide-leg eşofman, şişme yelek, Speedcat, gümüş metaller, kalkan gözlük)
+5. KOMBİN 5 · **erkek** (8 Kasım: Jacob Elordi, "Soho kitapçısı" off-duty; kruvaze palto, polo yaka triko, chino, süet loafer, örgü tote, Persol)
+
+**Bölümler (sırayla)**
+1. Başlık: küçük aralıklı büyük harf `STİL ATLASI · 8 KASIM`, altında Georgia italik "Günün kombinleri".
+2. **Bugün moda dünyasında:** 3-4 güncel haber (her biri "kaynak" linkli) + ayın takvimi ve aktif kampanyalar (11.11, Black Friday, mağaza indirimleri).
+3. **Bugün kataloğa eklenenler** (bej kutu): o gün eklenen 2 ikon/influencer (biri Türk kadın, biri yabancı erkek gibi) — kim, tarzı, hangi kombine ilham verdiği.
+4. Her kombin için:
+   - `KOMBİN N` eyebrow, Georgia italik 28px başlık (ör. "Paris Lacivert: Erkek Ceket, Ham Jean ve Altın Detaylar").
+   - **Tek cümlelik nasıl giyilir formülü**, ikonun adıyla biter.
+   - 1080×1350 kolaj (mailde 560px, ince kenarlık). Dosya adı `0N-<kısa-ad>-instagram.jpg`.
+   - Numaralı ürün tablosu: `N. Kategori · Marka · açıklama (ürün linki)` + altında kahverengi (#8a5a3c) **kampanya/indirim satırı** (tarih aralığıyla) + sağda fiyat.
+   - `Toplam liste fiyatı`.
+   - **Instagram açıklaması** bloğu: başlık + 🤎 + formül cümlesi, numaralı `Kategori · Marka · fiyat` listesi, "Tüm linkler bio'da 🔗", hashtag'ler: `#kombin #stilönerisi #outfitinspo #oldmoney #sessizlüks #quietluxury #kasımkombini` + marka etiketleri.
+5. Renkler: metin #2b2420/#3c2d23, vurgu #8a5a3c, ikincil #6b5d52, çizgi #eee7e1, zemin #f4f2ef. Fontlar: Georgia (başlık), Arial (metin).
+
+**Ürün ve parça düzeni (8 Kasım örneklerinden)**
+- Kadın: dış giyim + üst + alt + ayakkabı + çanta + saat + güneş gözlüğü (+ küpe). Erkek: palto + triko + pantolon + ayakkabı + çanta + saat + gözlük.
+- Lüks ve uygun fiyatlı karışık: Bottega Veneta, Prada, Ferragamo, Loewe, Persol yanında Koton, Network, Desa, Damat Tween, Dossha, George Hogg, Louur, Reis. Satıcı olarak Beymen, Desa, Network, Koton, Sneaks Up, Damat Tween siteleri kullanılmış.
+- Toplamlar 126.745 – 344.579 TL (8 Kasım). 45–52k sınırı bu formatta uygulanmamış.
+- Renk dili Pantone/sezon paletine bağlanıyor (Cloud Dancer, SK 26/27, yanık zeytin, tarçın, çikolata, lacivert).
