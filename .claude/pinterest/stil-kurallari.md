@@ -95,3 +95,10 @@ Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouise
 - Lüks ve uygun fiyatlı karışık: Bottega Veneta, Prada, Ferragamo, Loewe, Persol yanında Koton, Network, Desa, Damat Tween, Dossha, George Hogg, Louur, Reis. Satıcı olarak Beymen, Desa, Network, Koton, Sneaks Up, Damat Tween siteleri kullanılmış.
 - Toplamlar 126.745 – 344.579 TL (8 Kasım). 45–52k sınırı bu formatta uygulanmamış.
 - Renk dili Pantone/sezon paletine bağlanıyor (Cloud Dancer, SK 26/27, yanık zeytin, tarçın, çikolata, lacivert).
+
+## Stil Atlası üretimi (otomatik)
+
+- Betik: `python3 scripts/pinterest/atlas.py pinterest/<YYYY-MM-DD>/atlas.json` → kolajlar, `0N-<slug>-aciklama.txt` (Instagram açıklaması dahil), `atlas.html` (mail gövdesi, görseller `cid:att0..`), `atlas-onizleme.html`, `mail.json` (konu + Gmail ek referansları `sha256:<hash>:<yol>`).
+- Gönderim: Gmail `send_message`, to = Başak'ın kendi adresi, `htmlBody` = atlas.html içeriği, `attachments` = mail.json'daki liste (inline). Base64 yazma; dosya referansı kullan.
+- Erişim (ouisecretvie-studio ortamı): açık → Koton, Desa, Damat Tween, Bluemint, Derimod, Lovy Atelier, Arzu Kaprol, Ceren Ocak, Gizia, Pantone. **Bot korumalı (açılmıyor)** → Beymen, Network, Sneaks Up: korumayı atlatmaya çalışma; bu sitelerdeki ürünler için fiyatı web aramasıyla teyit et, stok doğrulanamazsa kampanya satırına "stok doğrulanamadı" yaz.
+- Kolaj görseli mutlaka beyaz fonlu ürün çekimi olmalı (betik köşe rengi koyuysa UYARI basar).
