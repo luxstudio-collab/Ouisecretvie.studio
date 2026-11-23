@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+/* ---------- Colour tokens (light: daylight linen) ---------- */
+:root {
+  --bg: #f7f3ec;
+  --surface: #efe8dc;
+  --ink: #2a211c;
+  --muted: #6f6359;
+  --line: #ddd3c4;
+  --accent: #7a1e24; /* wine red */
+  --accent-ink: #fbf7f1;
+  --gold: #b48a3e; /* candlelight */
+  color-scheme: light;
+}
+
+/* ---------- Dark: a candlelit evening ---------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14100e;
+    --surface: #1e1815;
+    --ink: #efe6da;
+    --muted: #a8998a;
+    --line: #342b25;
+    --accent: #c9575d;
+    --accent-ink: #14100e;
+    --gold: #d6b06a;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-gold: var(--gold);
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-jost), system-ui, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Small uppercase label used above headings */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Gentle fade-in for page content */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+/* Candle flicker for the placeholder artwork */
+@keyframes flicker {
+  0%,
+  100% {
+    opacity: 0.85;
+  }
+  45% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.75;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
