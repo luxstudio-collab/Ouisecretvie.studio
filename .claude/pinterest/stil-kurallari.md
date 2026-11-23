@@ -35,3 +35,13 @@ Kataloğu kapalı: Ipekyol, Twist, Vakko, Desa, Network.
 | 16.11 | Stil Atlası: Kadın Yılbaşı — Siyah elbise, bordo topuk · 49.159 TL | hazır |
 
 Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouisecretvie-*.jpg`, `~/kisisel-projeler/pinterest-otomasyon/aciklama-*.txt`); bu bulut ortamında yok.
+
+## Pin formatı (kombin kolajı)
+
+- Her kombin **tek pin**: 1000×1500 beyaz fon, sadece ürünler (manken yok), yumuşak gölgeli flat-lay.
+- Üstte küçük "OUISECRETVIE", italik serif kombin adı, altında "Kadın · Kasım gündüz" gibi etiket.
+- Yerleşim: sol üst dış giyim, sağ üst üst parça, sağ alt alt parça / elbise, sol alt çanta, en alt ayakkabı + takılar.
+- Ürün görseli beyaz fonda **ürün çekimi** olmalı. Gizia ve Ceren Ocak mankenli/gri fon çekiyor → kolaja giremez.
+  Beyaz fon ürün çekimi olanlar: Bluemint (kadın + erkek), Arzu Kaprol, Derimod (img0), Lovy Atelier (img0; sonraki görseller kutu).
+- Her pinin yanında `aciklama-<kombin>.txt`: parça listesi, marka, fiyat, link, toplam.
+- Üretici betik `scripts/pinterest/collage.py` (katalogları `cat/` altına indirip çalıştırılır); çıktılar `pinterest/<tarih>/`.
