@@ -19,8 +19,11 @@ Items marked *(öneri)* are Claude's suggestions, not yet confirmed by the owner
   segments to test: people planning a wedding, engagement or special dinner
   and looking for inspiration; event planners and table stylists; venue
   owners; interior and design lovers who save beautiful images.)*
-- **What I sell:** {{what the store sells or what clients can order, e.g.
-  custom AI table concepts, mood boards for events, prints}}
+- **What I sell:** Nothing yet. No products, no prices, no sales language.
+- **Current goal:** Reach real people and earn real followers. Every post is
+  judged by saves, shares and follows from people who love beautiful tables,
+  not by likes. No follow-for-follow, no bought followers, no engagement pods,
+  no giveaways that ask people to tag friends.
 - **Account stage:** New. 3 posts, 0 followers (Nov 2026). Grow slowly and
   beautifully; no follower-bait.
 
@@ -96,16 +99,23 @@ Items marked *(öneri)* are Claude's suggestions, not yet confirmed by the owner
 
 The skills will never invent one. Empty for now.
 
-- {{a real result, e.g. a client who used a concept for their event}}
 - {{a real number, e.g. views or saves on a post}}
 - {{a real story behind a design}}
 
 ## The ask
 
-- **My keyword CTA, if I use one:** {{one word, e.g. TABLE / SOFRA}}
-- **What the keyword sends them:** {{e.g. the full image set, or how to order
-  a custom table concept}}
-- **Where my link goes:** www.ouisecretvie.store
-- **Default soft ask** *(öneri)*: "Save this for your next table ✨" /
-  "Bir sonraki sofran için kaydet ✨" / "Garde-la pour ta prochaine table ✨".
-  One ask per post, never pushy.
+Nothing is for sale, so every ask is about reach: a save, a share, a
+follow, or a reply. One ask per post, always soft, never pushy.
+
+- **Asks to rotate** *(öneri)*:
+  - Save: "Save this for your next table ✨" / "Bir sonraki sofran için
+    kaydet ✨" / "Garde-la pour ta prochaine table ✨"
+  - Share: "Send this to the person you'd sit across from 🕯️" / "Karşısına
+    oturmak istediğin kişiye gönder 🕯️" / "Envoie-la à la personne en face de
+    qui tu t'assoirais 🕯️"
+  - Reply: "Red or ivory for your table? 🤍" / "Senin sofran: kırmızı mı,
+    fildişi mi? 🤍" / "Rouge ou ivoire pour ta table ? 🤍"
+  - Follow: "A new table every week, follow for the next one 🕊️"
+- **My keyword CTA:** None for now. Comments are for conversation; reply to
+  every real comment personally.
+- **Where my link goes:** www.ouisecretvie.store (no selling in captions)
