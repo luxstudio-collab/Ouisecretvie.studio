@@ -63,7 +63,7 @@ Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouise
 
 - Metricool marka ID 8308769, hesap `secretvie`. Kombin panosu: **Stylechic✨** (board id 336151628376723122). Diğer ilgili panolar: Kombin (336151628376713506), Winter Looks🤍 (336151628376736777).
 - Görsel: repodaki dosyanın commit SHA'lı raw.githubusercontent.com linki (repo herkese açık).
-- **Pin linki = kombinin ana parçasının ürün sayfası** (Bluemint için `https://www.bluemint.com/products/<handle>`; bulut ortamı yurt dışı IP olduğundan global siteye yönleniyor, Türkiye'den açılır) (insanlar tıklayıp satın alabilsin). GitHub linki KULLANMA (açılmıyor, 23.11'de Başak bildirdi). Diğer parçalar açıklamada marka + ürün adıyla. Pin açıklaması ≤500 karakter, başlık ≤100.
+- ~~Pin linki = kombinin ana parçasının ürün sayfası~~ (23.11 akşam: yerine sitedeki kombin sayfası kullanılıyor, aşağıya bak) (Bluemint için `https://www.bluemint.com/products/<handle>`; bulut ortamı yurt dışı IP olduğundan global siteye yönleniyor, Türkiye'den açılır) (insanlar tıklayıp satın alabilsin). GitHub linki KULLANMA (açılmıyor, 23.11'de Başak bildirdi). Diğer parçalar açıklamada marka + ürün adıyla. Pin açıklaması ≤500 karakter, başlık ≤100.
 - İstenirse her parça için ayrı ürün pini (o ürünün linkiyle) de açılabilir.
 - Yayınlanmış pinin linki Metricool'dan değişmez; Pinterest'te "Pini düzenle → Web sitesi" alanından elle değiştirilir.
 - İlk pin: 23.11.2026 17:45, Lacivert & Bitter.
@@ -114,3 +114,11 @@ Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouise
 - **Loafer kuralı (23.11, Başak):** loafer modele göre değişir. Sevdiği: parlak rugan, püsküllü (kilt) ya da penny, kalın/tırtıklı tabanlı koyu kahve-siyah loafer (panodaki GETSTYLED pinleri) ve George Hogg tipi altın madalyonlu penny loafer. Sevmediği: mat süet, metal tokalı "maskülen" Derimod loafer (23.11'de verdiğim, "kötü").
 - **Pano zorunlu kaynak:** Başak panoyu sürekli güncelliyor. Her kombin turunda önce panonun son pinlerine bak; tarz analizine kat ve en az bir kombini doğrudan panodaki bir pinin alınabilir karşılığı olarak kur ("Panodan: ..." başlığıyla, formülde pinin kaynağını an).
 - Son eklenenler (5 ve 23 Kasım): kahve-siyah lüks akşam (sheer bluz + Hermès + AUI), siyah korse/drape üst + maxi etek, kahve kapitone ceket + New Balance (sporty), süet ceket + gri tişört + rugan loafer.
+
+## Web sitesi: kombin sayfaları (23.11.2026'dan itibaren)
+
+- Site: https://ouisecretvie.vercel.app (Next.js, kodu `claude/ai-studio-website` dalında; Vercel bu daldan canlıya alıyor, push sonrası ~1-2 dk).
+- Her kombinin bir sayfası var: `https://ouisecretvie.vercel.app/tr/looks/<slug>` → kolaj, formül, her ürün için marka + fiyat + "Mağazada gör" (Türkçe mağaza linki), toplam. Veri: `src/content/looks.json`, kolajlar `public/looks/`.
+- **Pin linki = bu kombin sayfası.** Tek link ama oradan herkes her ürüne ulaşır. Pin açıklamasının sonu: "Tüm ürün linkleri pinde 🔗".
+- Yeni kombinleri siteye ekleme: `python3 scripts/pinterest/site_export.py pinterest/<tarih>/atlas.json <site-worktree> <YYYY-MM-DD>` → `npm run build` → `claude/ai-studio-website` dalına push. atlas.json'da kombine `cinsiyet: "erkek"` ve `alt_baslik` (ör. "Kasım gündüz") eklenebilir.
+- Instagram açıklamasında "Tüm linkler bio'da 🔗" kalır; bio linki `https://ouisecretvie.vercel.app/tr/looks` olmalı.
