@@ -36,12 +36,18 @@ Kataloğu kapalı: Ipekyol, Twist, Vakko, Desa, Network.
 
 Kolaj görselleri ve açıklama dosyaları Başak'ın Mac'inde (`~/Desktop/ouisecretvie-*.jpg`, `~/kisisel-projeler/pinterest-otomasyon/aciklama-*.txt`); bu bulut ortamında yok.
 
-## Pin formatı (kombin kolajı)
+## Pin formatı (kombin kolajı) — Başak'ın referanslarına göre
 
-- Her kombin **tek pin**: 1000×1500 beyaz fon, sadece ürünler (manken yok), yumuşak gölgeli flat-lay.
-- Üstte küçük "OUISECRETVIE", italik serif kombin adı, altında "Kadın · Kasım gündüz" gibi etiket.
-- Yerleşim: sol üst dış giyim, sağ üst üst parça, sağ alt alt parça / elbise, sol alt çanta, en alt ayakkabı + takılar.
-- Ürün görseli beyaz fonda **ürün çekimi** olmalı. Gizia ve Ceren Ocak mankenli/gri fon çekiyor → kolaja giremez.
-  Beyaz fon ürün çekimi olanlar: Bluemint (kadın + erkek), Arzu Kaprol, Derimod (img0), Lovy Atelier (img0; sonraki görseller kutu).
-- Her pinin yanında `aciklama-<kombin>.txt`: parça listesi, marka, fiyat, link, toplam.
-- Üretici betik `scripts/pinterest/collage.py` (katalogları `cat/` altına indirip çalıştırılır); çıktılar `pinterest/<tarih>/`.
+- Her kombin **tek görsel**: 1080×1350 (4:5), beyaz fon, sadece ürünler, manken yok.
+- **Görselin içinde yazı yok.** Kombin adı, parça listesi ve yorum `aciklama-<kombin>.txt` dosyasına yazılır.
+- **Parçalar birbirine biner**, gölge yok. Kopuk ızgara değil, tek bir bütün gibi durmalı.
+- Dizilim (referans: 03-yeni-ikon, 04-dilara-sporty, 05-erkek-yeni-ikon):
+  sol üstte üst parça · ortada büyük dış giyim (üst parçanın üstüne biner) · sağda boydan pantolon/etek (dış giyimin altına biner) ·
+  solda dış giyimin üstüne binen çanta · çantanın altında saat (kadında bileklik de olur) · altta ortada ayakkabı (pantolonun üstüne biner) ·
+  sağ üstte güneş gözlüğü · gözlüğün altında küpe.
+- 7-8 parça: üst, dış giyim, alt, çanta, saat/bileklik, ayakkabı, gözlük, küpe.
+- Gözlük ve saat: Bluemint (GÜNEŞ GÖZLÜĞÜ, KOL SAATİ); Bluemint süet tote de var.
+- Ürün görseli beyaz fonda **ürün çekimi** olmalı. Gizia ve Ceren Ocak mankenli/gri fon çekiyor, kolaja giremez.
+  Beyaz fon ürün çekimi olanlar: Bluemint, Arzu Kaprol, Derimod (img0), Lovy Atelier (img0; sonraki görseller kutu).
+- `aciklama-<kombin>.txt`: başlık, 2-3 cümle yorum, numaralı parça listesi (marka, fiyat, link), toplam.
+- Betikler: `scripts/pinterest/collage2.py` (yerleşim), `desc.py` (açıklama), `white.py` (beyaz fon görsel seçimi). Çıktılar `pinterest/<tarih>/`.
