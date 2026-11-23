@@ -9,10 +9,10 @@ SL={'top':(105,40,350,500,'top'),'outer':(330,40,520,810,'top'),'glasses':(615,4
     'watch':(225,820,180,250,'center'),'shoes':(290,975,450,240,'center')}
 ORDER=['top','outer','bottom','bag','watch','shoes','glasses','earring']
 LOOKS={
- 'gunduz':{'top':P(G,'reine-black-triko'),'outer':P(G,'lana-dark-grey-melange-dis-giyim'),'bottom':P(G,'dora-dark-grey-melange-pantolon'),
+ 'gunduz':{'top':P(G,'reine-black-triko'),'outer':P(G,'lana-nuit-dis-giyim'),'bottom':P(G,'dora-nuit-pantolon'),
    'bag':P(D,'kadin-kahverengi-uzun-askili-klasik-kol-cantasi-ab590002sv-5637145360'),'watch':P(Lv,'ogi-bileklik'),
    'shoes':P(D,'kadin-kahverengi-tokali-suet-deri-maskulen-loafer-af180019ds-5637145360'),'glasses':P(G,'javier-brown-shade-gunes-gozlugu'),'earring':P(Lv,'tanura-i̇nci-kupe-kopya')},
- 'erkek':{'top':P(G,'mike-camel-triko'),'outer':P(G,'dack-anthracite-melange-ceket'),'bottom':P(G,'emory-brown-pantolon'),
+ 'erkek':{'top':P(G,'mike-camel-triko'),'outer':P(G,'dack-dark-navy-ceket'),'bottom':P(G,'emory-brown-pantolon'),
    'bag':P(G,'rino-brown-atki'),'watch':P(G,'bm-watch-oceanic-b79-001-43-mm-kol-saati'),
    'shoes':P(D,'erkek-kahverengi-suet-deri-chelsea-bot-wm610001ds-5637145360'),'glasses':P(G,'smith-brown-turtle-shade-gunes-gozlugu')},
  'aksam':{'top':P(A,'beyaz-drapeli-kolsuz-bluz-copy'),'outer':P(G,'sophia-camel-dis-giyim'),'bottom':P(A,'siyah-etek-2'),
