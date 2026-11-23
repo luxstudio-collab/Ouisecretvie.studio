@@ -1,4 +1,4 @@
-import type { Concept } from "@/content/gallery";
+import { concepts, type Concept } from "@/content/gallery";
 import type { Locale } from "@/content/site";
 import Artwork from "./Artwork";
 
@@ -30,7 +30,7 @@ export default function ConceptCard({
           className="aspect-[4/5] rounded-sm transition-transform duration-700 group-hover:scale-[1.01]"
         />
         <span className="absolute top-3 left-3 rounded-full bg-black/35 px-3 py-1 text-[0.65rem] tracking-[0.2em] text-white/90 uppercase backdrop-blur-sm">
-          {conceptLabel}
+          {conceptLabel} · {String(concepts.indexOf(concept) + 1).padStart(2, "0")}
         </span>
         {!concept.image && (
           <span className="absolute right-3 bottom-3 text-[0.65rem] tracking-[0.2em] text-white/70 uppercase">

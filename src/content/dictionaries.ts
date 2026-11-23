@@ -65,6 +65,15 @@ const en = {
     followTitle: "Follow the table",
     followBody: "Each week a new table appears on Instagram first. Come and see where it is set.",
     floating: "Instagram",
+    marquee: ["Ancient ruins", "Stone columns", "Candlelight", "Ivory linen", "Olive groves", "Winter light", "Velvet", "A quiet dinner"],
+    waysEyebrow: "Explore",
+    waysTitle: "Three ways in.",
+    waysLead: "Tables to dream with, looks to wear, and a new table every week.",
+    ways: [
+      { eyebrow: "Tables", title: "The collection", body: "Six imagined tables, each set in its own place.", cta: "See the tables" },
+      { eyebrow: "Looks", title: "Shop the look", body: "Outfits from real, in-stock pieces. Every item is one tap from the shop.", cta: "See the looks" },
+      { eyebrow: "Instagram", title: "A table a week", body: "The newest table appears on Instagram first.", cta: "Follow" },
+    ],
   },
   gallery: {
     eyebrow: "The collection",
@@ -190,6 +199,15 @@ const tr: Dictionary = {
     followTitle: "Sofrayı takip et",
     followBody: "Her hafta yeni bir sofra önce Instagram'da kuruluyor. Gel, nerede kurulduğunu gör.",
     floating: "Instagram",
+    marquee: ["Antik kalıntılar", "Taş sütunlar", "Mum ışığı", "Fildişi keten", "Zeytinlikler", "Kış ışığı", "Kadife", "Sessiz bir akşam yemeği"],
+    waysEyebrow: "Keşfet",
+    waysTitle: "Üç kapı.",
+    waysLead: "Hayal kurmak için sofralar, giymek için kombinler ve her hafta yeni bir sofra.",
+    ways: [
+      { eyebrow: "Sofralar", title: "Koleksiyon", body: "Her biri kendi mekânında kurulmuş altı hayali sofra.", cta: "Sofraları gör" },
+      { eyebrow: "Kombinler", title: "Kombini al", body: "Gerçek, stokta olan parçalardan kombinler. Her ürün mağazaya bir dokunuş uzaklıkta.", cta: "Kombinleri gör" },
+      { eyebrow: "Instagram", title: "Her hafta bir sofra", body: "En yeni sofra önce Instagram'da kuruluyor.", cta: "Takip et" },
+    ],
   },
   gallery: {
     eyebrow: "Koleksiyon",
@@ -313,6 +331,15 @@ const fr: Dictionary = {
     followTitle: "Suivre la table",
     followBody: "Chaque semaine, une nouvelle table apparaît d'abord sur Instagram. Venez voir où elle est dressée.",
     floating: "Instagram",
+    marquee: ["Ruines antiques", "Colonnes de pierre", "Lumière des bougies", "Lin ivoire", "Oliveraies", "Lumière d'hiver", "Velours", "Un dîner tranquille"],
+    waysEyebrow: "Explorer",
+    waysTitle: "Trois portes.",
+    waysLead: "Des tables pour rêver, des tenues à porter et une nouvelle table chaque semaine.",
+    ways: [
+      { eyebrow: "Tables", title: "La collection", body: "Six tables imaginées, chacune dressée dans son propre lieu.", cta: "Voir les tables" },
+      { eyebrow: "Looks", title: "Le look à shopper", body: "Des tenues composées de pièces réelles et disponibles. Chaque article est à un geste de la boutique.", cta: "Voir les looks" },
+      { eyebrow: "Instagram", title: "Une table par semaine", body: "La nouvelle table apparaît d'abord sur Instagram.", cta: "Suivre" },
+    ],
   },
   gallery: {
     eyebrow: "La collection",

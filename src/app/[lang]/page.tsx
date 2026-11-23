@@ -1,9 +1,11 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Artwork from "@/components/Artwork";
 import InstagramIcon from "@/components/InstagramIcon";
 import { getDictionary } from "@/content/dictionaries";
 import { concepts } from "@/content/gallery";
+import { looks } from "@/content/looks";
 import { hasLocale, site } from "@/content/site";
 
 export default async function HomePage({ params }: PageProps<"/[lang]">) {
@@ -13,11 +15,17 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const t = dict.home;
   const week = concepts.find((c) => c.id === "winter-dinner") ?? concepts[0];
   const collection = concepts.filter((c) => c.id !== week.id).slice(0, 4);
+  const firstLook = looks[0];
+  const doors = [
+    { href: `/${lang}/gallery`, external: false },
+    { href: `/${lang}/looks`, external: false },
+    { href: site.instagram.url, external: true },
+  ];
 
   return (
     <>
-      {/* 1 · Full-screen scene: the brand lives inside the image */}
-      <section className="relative -mt-px h-[calc(100svh-4rem-env(safe-area-inset-top))] min-h-[560px] overflow-hidden md:h-[calc(100svh-5rem-env(safe-area-inset-top))]">
+      {/* 1 · Full-screen scene. The header floats over it (see Header). */}
+      <section className="grain relative -mt-[calc(4rem+env(safe-area-inset-top))] h-[100svh] min-h-[600px] overflow-hidden bg-[#14100e] md:-mt-[calc(5rem+env(safe-area-inset-top))]">
         <Artwork
           variant="columns"
           uid="hero"
@@ -27,16 +35,16 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           className="absolute inset-0 h-full w-full"
         />
         <div
-          className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-black/10"
+          className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/10 to-black/85"
           aria-hidden="true"
         />
-        <div className="relative mx-auto flex h-full max-w-6xl flex-col justify-end px-4 pb-14 text-white sm:px-6 md:pb-20 lg:px-10">
-          <p className="rise flex items-center gap-3 text-xs tracking-[0.28em] text-white/80 uppercase">
-            <span className="h-2 w-2 rounded-full bg-gold shadow-[0_0_12px_var(--gold)]" />
+        <div className="relative mx-auto flex h-full max-w-6xl flex-col justify-end px-4 pb-16 text-white sm:px-6 md:pb-24 lg:px-10">
+          <p className="rise flex items-center gap-3 text-xs tracking-[0.3em] text-white/80 uppercase">
+            <span className="h-2 w-2 rounded-full bg-[#d6b06a] shadow-[0_0_14px_#d6b06a]" />
             {t.eyebrow}
           </p>
           <h1
-            className="rise mt-5 font-serif text-[3.6rem] leading-[0.92] italic sm:text-8xl lg:text-[9rem]"
+            className="glow rise mt-5 font-serif text-[3.8rem] leading-[0.9] italic sm:text-8xl lg:text-[9.5rem]"
             style={{ animationDelay: "100ms" }}
           >
             {t.title}
@@ -53,7 +61,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           >
             <Link
               href={`/${lang}/gallery`}
-              className="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-8 text-sm tracking-[0.14em] text-black uppercase transition-colors hover:bg-white/85"
+              className="inline-flex min-h-12 items-center justify-center rounded-full bg-[#f3e9da] px-8 text-sm tracking-[0.14em] text-[#14100e] uppercase transition-colors hover:bg-white"
             >
               {t.primary}
             </Link>
@@ -69,21 +77,41 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           </div>
         </div>
         <span
-          className="absolute right-6 bottom-6 hidden text-[0.65rem] tracking-[0.3em] text-white/60 uppercase md:block"
+          className="absolute right-6 bottom-8 hidden text-[0.65rem] tracking-[0.3em] text-white/60 uppercase md:block"
           aria-hidden="true"
         >
           {t.scroll} ↓
         </span>
       </section>
 
-      {/* 2 · Honest numbers, no invented reach */}
+      {/* 2 · Endless band of places and materials */}
+      <div className="marquee overflow-hidden border-y border-[#d6b06a]/20 bg-[#14100e] py-5 text-[#efe6da]">
+        <div className="marquee-track" aria-hidden="true">
+          {[0, 1].map((copy) => (
+            <ul key={copy} className="flex shrink-0 items-center">
+              {t.marquee.map((word) => (
+                <li
+                  key={`${copy}-${word}`}
+                  className="flex items-center gap-8 pr-8 font-serif text-2xl whitespace-nowrap italic sm:text-3xl"
+                >
+                  {word}
+                  <span className="text-base text-[#d6b06a] not-italic">✦</span>
+                </li>
+              ))}
+            </ul>
+          ))}
+        </div>
+        <p className="sr-only">{t.marquee.join(", ")}</p>
+      </div>
+
+      {/* 3 · Honest numbers */}
       <section className="border-b border-line">
-        <dl className="mx-auto grid max-w-6xl grid-cols-3 divide-x divide-line px-0 sm:px-6 lg:px-10">
+        <dl className="mx-auto grid max-w-6xl grid-cols-3 divide-x divide-line sm:px-6 lg:px-10">
           {t.stats.map((s) => (
-            <div key={s.label} className="px-3 py-8 text-center sm:py-10">
+            <div key={s.label} className="px-3 py-9 text-center sm:py-12">
               <dt className="sr-only">{s.label}</dt>
-              <dd className="font-serif text-4xl text-accent sm:text-6xl">{s.value}</dd>
-              <dd className="mt-2 text-[0.7rem] leading-snug tracking-[0.18em] text-muted uppercase sm:text-xs">
+              <dd className="font-serif text-5xl text-accent sm:text-7xl">{s.value}</dd>
+              <dd className="mt-2 text-[0.68rem] leading-snug tracking-[0.18em] text-muted uppercase sm:text-xs">
                 {s.label}
               </dd>
             </div>
@@ -91,39 +119,87 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
         </dl>
       </section>
 
-      {/* 3 · Statement */}
-      <section className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6 md:py-28">
-        <span className="mx-auto mb-8 block h-10 w-px bg-gold" aria-hidden="true" />
-        <h2 className="font-serif text-4xl leading-tight sm:text-5xl">{t.introTitle}</h2>
-        <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-muted">
-          {t.introBody}
-        </p>
+      {/* 4 · Three ways in */}
+      <section className="mx-auto max-w-6xl px-4 pt-20 sm:px-6 md:pt-28 lg:px-10">
+        <div className="text-center">
+          <p className="eyebrow">{t.waysEyebrow}</p>
+          <h2 className="mt-4 font-serif text-5xl italic sm:text-6xl">{t.waysTitle}</h2>
+          <p className="mx-auto mt-4 max-w-md text-muted">{t.waysLead}</p>
+        </div>
+        <div className="mt-12 grid gap-10 md:grid-cols-3 md:gap-8">
+          {t.ways.map((way, i) => {
+            const door = doors[i];
+            const media =
+              i === 1 && firstLook ? (
+                <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-line bg-white">
+                  <Image
+                    src={firstLook.image}
+                    alt={firstLook.title}
+                    fill
+                    sizes="(min-width: 768px) 33vw, 100vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                  />
+                </div>
+              ) : (
+                <Artwork
+                  variant={i === 0 ? "ruins" : "red"}
+                  uid={`door-${i}`}
+                  alt={way.title}
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  className="aspect-[4/5] rounded-sm transition-transform duration-700 group-hover:scale-[1.03]"
+                />
+              );
+            const body = (
+              <>
+                <div className="overflow-hidden rounded-sm">{media}</div>
+                <p className="mt-6 text-xs tracking-[0.28em] text-gold uppercase">{way.eyebrow}</p>
+                <h3 className="mt-2 font-serif text-3xl italic">{way.title}</h3>
+                <p className="mt-3 leading-relaxed text-muted">{way.body}</p>
+                <span className="mt-5 inline-flex min-h-11 items-center gap-2 border-b border-ink/30 text-sm tracking-[0.14em] uppercase transition-colors group-hover:border-accent group-hover:text-accent">
+                  {way.cta} <span aria-hidden="true">→</span>
+                </span>
+              </>
+            );
+            return door.external ? (
+              <a
+                key={way.title}
+                href={door.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                {body}
+              </a>
+            ) : (
+              <Link key={way.title} href={door.href} className="group block">
+                {body}
+              </Link>
+            );
+          })}
+        </div>
       </section>
 
-      {/* 4 · Table of the week */}
-      <section className="bg-[#14100e] text-[#efe6da]">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 md:grid-cols-[1.15fr_1fr] md:gap-14 md:py-24 lg:px-10">
-          <Artwork
-            variant={week.art}
-            uid="week"
-            image={week.image}
-            alt={`${week.title[lang]}: ${week.place[lang]}`}
-            sizes="(min-width: 768px) 55vw, 100vw"
-            className="aspect-[4/5] rounded-sm md:aspect-[5/6]"
-          />
-          <div>
-            <p className="flex items-center gap-3 text-xs tracking-[0.28em] text-[#d6b06a] uppercase">
-              <span className="h-2 w-2 rounded-full bg-[#d6b06a]" />
+      {/* 5 · Table of the week, with a glowing title */}
+      <section className="grain mt-24 bg-[#14100e] text-[#efe6da] md:mt-32">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 py-20 sm:px-6 md:grid-cols-[1fr_1.15fr] md:gap-16 md:py-28 lg:px-10">
+          <div className="order-2 text-center md:order-1 md:text-left">
+            <p className="inline-flex items-center gap-3 text-xs tracking-[0.3em] text-[#d6b06a] uppercase">
+              <span className="h-2 w-2 rounded-full bg-[#d6b06a] shadow-[0_0_14px_#d6b06a]" />
               {t.weekEyebrow}
             </p>
-            <h2 className="mt-5 font-serif text-5xl leading-none italic sm:text-6xl">
+            <h2 className="glow mt-6 font-serif text-6xl leading-[0.95] italic sm:text-7xl lg:text-8xl">
               {week.title[lang]}
             </h2>
-            <p className="mt-3 text-sm tracking-[0.14em] text-[#a8998a] uppercase">
+            <p className="mt-4 text-sm tracking-[0.18em] text-[#a8998a] uppercase">
               {week.place[lang]}
             </p>
-            <p className="mt-7 text-lg leading-relaxed text-[#efe6da]/80">{t.weekBody}</p>
-            <ul className="mt-7 flex gap-2" aria-label={dict.gallery.palette}>
+            <p className="mx-auto mt-7 max-w-md text-lg leading-relaxed text-[#efe6da]/80 md:mx-0">
+              {t.weekBody}
+            </p>
+            <ul
+              className="mt-7 flex justify-center gap-2 md:justify-start"
+              aria-label={dict.gallery.palette}
+            >
               {week.palette.map((c) => (
                 <li
                   key={c}
@@ -142,10 +218,20 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
               {t.weekCta} ✨
             </a>
           </div>
+          <div className="order-1 md:order-2">
+            <Artwork
+              variant={week.art}
+              uid="week"
+              image={week.image}
+              alt={`${week.title[lang]}: ${week.place[lang]}`}
+              sizes="(min-width: 768px) 55vw, 100vw"
+              className="aspect-[4/5] rounded-t-full shadow-[0_40px_120px_-40px_rgb(214_176_106/0.45)]"
+            />
+          </div>
         </div>
       </section>
 
-      {/* 5 · Collection: large edge-to-edge images */}
+      {/* 6 · Collection: large edge-to-edge images */}
       <section className="pt-20 md:pt-28">
         <div className="mx-auto mb-10 flex max-w-6xl items-end justify-between gap-6 px-4 sm:px-6 lg:px-10">
           <h2 className="font-serif text-4xl sm:text-5xl">{t.collectionTitle}</h2>
@@ -157,32 +243,60 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           </Link>
         </div>
         <div className="grid gap-1 sm:grid-cols-2">
-          {collection.map((c) => (
-            <Link
-              key={c.id}
-              href={`/${lang}/gallery`}
-              className="group relative block overflow-hidden"
-            >
-              <Artwork
-                variant={c.art}
-                uid={`col-${c.id}`}
-                image={c.image}
-                alt={`${c.title[lang]}: ${c.place[lang]}`}
-                sizes="(min-width: 640px) 50vw, 100vw"
-                className="aspect-[4/3] transition-transform duration-700 group-hover:scale-[1.03]"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/70 via-transparent to-transparent p-6 text-white md:p-8">
-                <p className="text-[0.65rem] tracking-[0.24em] text-white/70 uppercase">
-                  {dict.gallery.concept} · {c.place[lang]}
-                </p>
-                <h3 className="mt-2 font-serif text-3xl italic md:text-4xl">{c.title[lang]}</h3>
-              </div>
-            </Link>
-          ))}
+          {collection.map((c) => {
+            const n = String(concepts.indexOf(c) + 1).padStart(2, "0");
+            return (
+              <Link key={c.id} href={`/${lang}/gallery`} className="group relative block overflow-hidden">
+                <Artwork
+                  variant={c.art}
+                  uid={`col-${c.id}`}
+                  image={c.image}
+                  alt={`${c.title[lang]}: ${c.place[lang]}`}
+                  sizes="(min-width: 640px) 50vw, 100vw"
+                  className="aspect-[4/3] transition-transform duration-700 group-hover:scale-[1.03]"
+                />
+                <div className="absolute inset-0 flex flex-col justify-between bg-gradient-to-t from-black/75 via-transparent to-black/20 p-6 text-white md:p-8">
+                  <span className="font-serif text-lg text-white/80 italic">{n}</span>
+                  <div>
+                    <p className="text-[0.65rem] tracking-[0.24em] text-white/70 uppercase">
+                      {dict.gallery.filters[c.group]} · {c.place[lang]}
+                    </p>
+                    <h3 className="mt-2 flex items-center justify-between gap-4 font-serif text-3xl italic md:text-4xl">
+                      {c.title[lang]}
+                      <span
+                        className="translate-x-[-6px] text-2xl not-italic opacity-0 transition-all duration-500 group-hover:translate-x-0 group-hover:opacity-100"
+                        aria-hidden="true"
+                      >
+                        →
+                      </span>
+                    </h3>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
-      {/* 6 · Principles */}
+      {/* 7 · Manifesto, as a pull-quote */}
+      <section className="grain mt-24 bg-[#14100e] px-4 py-24 text-center text-[#efe6da] sm:px-6 md:mt-32 md:py-32">
+        <span className="block font-serif text-7xl leading-none text-[#d6b06a]" aria-hidden="true">
+          “
+        </span>
+        <blockquote className="mx-auto mt-2 max-w-4xl">
+          <p className="glow font-serif text-4xl leading-tight italic sm:text-6xl">
+            {t.introTitle}
+          </p>
+          <footer className="mt-6 text-xs tracking-[0.3em] text-[#d6b06a] uppercase">
+            ~ {site.name}
+          </footer>
+        </blockquote>
+        <p className="mx-auto mt-10 max-w-xl text-lg leading-relaxed text-[#efe6da]/70">
+          {t.introBody}
+        </p>
+      </section>
+
+      {/* 8 · Principles */}
       <section className="mx-auto max-w-6xl px-4 pt-24 sm:px-6 md:pt-32 lg:px-10">
         <h2 className="font-serif text-4xl sm:text-5xl">{t.principlesTitle}</h2>
         <ol className="mt-10 grid gap-px overflow-hidden rounded-sm border border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
@@ -196,7 +310,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
         </ol>
       </section>
 
-      {/* 7 · Follow the table: Instagram-style grid */}
+      {/* 9 · Follow the table */}
       <section className="mx-auto max-w-6xl px-4 pt-24 sm:px-6 md:pt-32 lg:px-10">
         <div className="grid items-center gap-10 md:grid-cols-[1fr_1.3fr] md:gap-14">
           <div>

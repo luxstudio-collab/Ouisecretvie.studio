@@ -46,12 +46,27 @@ export default function Header({
     return () => window.removeEventListener("keydown", onKey);
   }, [open]);
 
+  // On the home page the header floats, see-through, over the full-screen
+  // scene until the visitor scrolls.
+  const isHome = pathname === `/${lang}`;
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 40);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+  const over = isHome && !scrolled && !open;
+
   const isActive = (href: string) =>
     href === `/${lang}` ? pathname === href : pathname.startsWith(href);
 
   return (
     <>
-    <header className="sticky top-0 z-40 border-b border-line/70 bg-bg/85 pt-[env(safe-area-inset-top)] backdrop-blur-md">
+    <header
+      data-over={over ? "true" : undefined}
+      className="sticky top-0 z-40 border-b border-line/70 bg-bg/85 text-ink pt-[env(safe-area-inset-top)] backdrop-blur-md transition-colors duration-500"
+    >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6 md:h-20 lg:px-10">
         <Link
           href={`/${lang}`}
