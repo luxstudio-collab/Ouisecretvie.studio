@@ -5,6 +5,7 @@ import { abs, jsonLd, pageMetadata } from "@/lib/seo";
 import Artwork from "@/components/Artwork";
 import ColumnCard from "@/components/ColumnCard";
 import InstagramIcon from "@/components/InstagramIcon";
+import ShareBar from "@/components/ShareBar";
 import { getDictionary } from "@/content/dictionaries";
 import { columns, formatColumnDate, getColumn, readingMinutes } from "@/content/journal";
 import { hasLocale, locales, site } from "@/content/site";
@@ -162,6 +163,20 @@ export default async function ColumnPage({ params }: PageProps<"/[lang]/journal/
             </ol>
           </aside>
         )}
+
+        <ShareBar
+          url={url}
+          title={column.title[lang]}
+          pinImage={abs(`/${lang}/journal/${column.slug}/pin-image`)}
+          labels={{
+            share: t.share,
+            shareNative: t.shareNative,
+            whatsapp: t.whatsapp,
+            pinterest: t.pinterest,
+            copy: t.copy,
+            copied: t.copied,
+          }}
+        />
 
         <p className="mt-12 text-center font-serif text-2xl text-gold" aria-hidden="true">
           ✦

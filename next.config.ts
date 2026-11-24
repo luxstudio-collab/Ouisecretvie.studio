@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/[lang]/opengraph-image": ["./src/assets/fonts/**"],
     "/[lang]/journal/[slug]/opengraph-image": ["./src/assets/fonts/**"],
+    "/[lang]/journal/[slug]/pin-image": ["./src/assets/fonts/**"],
   },
   turbopack: {
     rules: {

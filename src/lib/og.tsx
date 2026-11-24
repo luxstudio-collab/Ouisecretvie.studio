@@ -123,3 +123,76 @@ export async function ogImage({ eyebrow, title, subtitle, footer = site.instagra
     { ...ogSize, fonts: await fonts() },
   );
 }
+
+export const pinSize = { width: 1000, height: 1500 };
+
+/** Tall Pinterest cover: 1000 x 1500 (2:3). */
+export async function pinImage({
+  eyebrow,
+  title,
+  subtitle,
+  lead,
+}: Card & { lead?: string }) {
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          padding: "80px 76px",
+          background:
+            "radial-gradient(circle at 50% 78%, rgba(214,176,106,0.42) 0%, rgba(20,16,14,0) 48%), linear-gradient(180deg, #1d1a24 0%, #14100e 100%)",
+          color: "#efe6da",
+          fontFamily: "Cormorant, CormorantExt",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 18, fontSize: 32 }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              width: 70,
+              height: 70,
+              borderRadius: 70,
+              border: "1.5px solid rgba(239,230,218,0.5)",
+              fontSize: 24,
+              letterSpacing: 2,
+            }}
+          >
+            OSV
+          </div>
+          Ouisecretvie Studio
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <div style={{ display: "flex", fontSize: 30, letterSpacing: 7, textTransform: "uppercase", color: "#d6b06a" }}>
+            {eyebrow}
+          </div>
+          <div style={{ display: "flex", marginTop: 26, fontSize: 104, lineHeight: 1, fontStyle: "italic" }}>
+            {title}
+          </div>
+          {subtitle && (
+            <div style={{ display: "flex", marginTop: 26, fontSize: 48, lineHeight: 1.15, color: "#cbbba8" }}>
+              {subtitle}
+            </div>
+          )}
+          {lead && (
+            <div style={{ display: "flex", marginTop: 44, fontSize: 34, lineHeight: 1.35, color: "#a8998a" }}>
+              {lead}
+            </div>
+          )}
+        </div>
+
+        <div style={{ display: "flex", justifyContent: "space-between", fontSize: 28, color: "#a8998a" }}>
+          <div style={{ display: "flex" }}>{new URL(site.url).host}</div>
+          <div style={{ display: "flex" }}>{site.instagram.handle}</div>
+        </div>
+      </div>
+    ),
+    { ...pinSize, fonts: await fonts() },
+  );
+}
