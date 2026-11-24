@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { pageMetadata } from "@/lib/seo";
 import Artwork from "@/components/Artwork";
 import InstagramIcon from "@/components/InstagramIcon";
 import PageIntro from "@/components/PageIntro";
@@ -12,7 +13,7 @@ export async function generateMetadata({
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const t = getDictionary(lang).contact;
-  return { title: t.eyebrow, description: t.lead };
+  return pageMetadata({ lang, path: "/contact", title: t.title, description: t.lead });
 }
 
 export default async function ContactPage({ params }: PageProps<"/[lang]/contact">) {

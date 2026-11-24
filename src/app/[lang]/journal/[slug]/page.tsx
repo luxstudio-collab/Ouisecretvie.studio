@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { abs, jsonLd, pageMetadata } from "@/lib/seo";
 import Artwork from "@/components/Artwork";
 import ColumnCard from "@/components/ColumnCard";
 import InstagramIcon from "@/components/InstagramIcon";
@@ -18,7 +19,15 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const column = getColumn(slug);
   if (!hasLocale(lang) || !column) return {};
-  return { title: column.title[lang], description: column.lead[lang] };
+  return pageMetadata({
+    lang,
+    path: `/journal/${column.slug}`,
+    title: column.title[lang],
+    description: column.lead[lang],
+    type: "article",
+    publishedTime: column.date,
+    section: column.category[lang],
+  });
 }
 
 export default async function ColumnPage({ params }: PageProps<"/[lang]/journal/[slug]">) {
@@ -29,8 +38,39 @@ export default async function ColumnPage({ params }: PageProps<"/[lang]/journal/
   const [main, sub] = column.title[lang].split(/:\s+/);
   const others = columns.filter((c) => c.slug !== column.slug).slice(0, 2);
 
+  const url = abs(`/${lang}/journal/${column.slug}`);
+  const structured = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        headline: column.title[lang],
+        description: column.lead[lang],
+        inLanguage: lang,
+        datePublished: column.date,
+        dateModified: column.date,
+        articleSection: column.category[lang],
+        url,
+        mainEntityOfPage: url,
+        image: abs(`/${lang}/journal/${column.slug}/opengraph-image`),
+        author: { "@type": "Organization", name: site.name, url: site.url },
+        publisher: { "@id": abs("/#organization") },
+        ...(column.sources ? { citation: column.sources.map((s) => s.url) } : {}),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: site.name, item: abs(`/${lang}`) },
+          { "@type": "ListItem", position: 2, name: t.title, item: abs(`/${lang}/journal`) },
+          { "@type": "ListItem", position: 3, name: column.title[lang], item: url },
+        ],
+      },
+    ],
+  };
+
   return (
     <article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(structured)} />
       {/* Heading */}
       <header className="rise mx-auto max-w-3xl px-4 pt-12 text-center sm:px-6 md:pt-20">
         <Link
@@ -102,6 +142,26 @@ export default async function ColumnPage({ params }: PageProps<"/[lang]/journal/
             </p>
           );
         })}
+
+        {column.sources && column.sources.length > 0 && (
+          <aside className="mt-14 border-t border-line pt-6 text-sm leading-relaxed text-muted">
+            <h2 className="text-xs tracking-[0.24em] uppercase">{t.sources}</h2>
+            <ol className="mt-3 list-decimal space-y-1 pl-5">
+              {column.sources.map((src) => (
+                <li key={src.url}>
+                  <a
+                    href={src.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-line underline-offset-4 hover:text-accent"
+                  >
+                    {src.title}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </aside>
+        )}
 
         <p className="mt-12 text-center font-serif text-2xl text-gold" aria-hidden="true">
           ✦

@@ -5,9 +5,10 @@ import type { Locale } from "./site";
 
 const en = {
   meta: {
-    title: "Ouisecretvie Studio · where ideas breathe",
+    title: "Ouisecretvie Studio · Table Design, Tablescapes and the Art of Hosting",
     description:
-      "An AI design studio imagining tables and tablescapes in beautiful places: long dinners in ancient ruins, candlelit tables among stone columns.",
+      "An AI design studio imagining tablescapes in beautiful places, with short columns on table etiquette, art, aesthetics and candlelit hosting.",
+    keywords: ["table design", "tablescape", "table setting", "table etiquette", "dinner party ideas", "candlelight dinner", "table decor", "art of hosting", "AI design studio", "wabi-sabi table"],
   },
   nav: {
     home: "Home",
@@ -111,6 +112,7 @@ const en = {
     homeLink: "Read all columns",
     read: "Read",
     shareCta: "Follow on Instagram for the next one",
+    sources: "Sources",
   },
   about: {
     eyebrow: "The studio",
@@ -153,9 +155,10 @@ export type Dictionary = typeof en;
 
 const tr: Dictionary = {
   meta: {
-    title: "Ouisecretvie Studio · where ideas breathe",
+    title: "Ouisecretvie Studio · Sofra Tasarımı, Masa Düzeni ve Sofra Adabı",
     description:
-      "Güzel mekânlarda sofralar hayal eden bir yapay zekâ tasarım stüdyosu: antik kalıntılarda uzun akşam yemekleri, taş sütunlar arasında mum ışığında masalar.",
+      "Güzel mekânlarda sofralar hayal eden yapay zekâ tasarım stüdyosu. Masa düzeni, sofra adabı, sanat ve estetik üzerine köşe yazıları, kombinler ve ilham.",
+    keywords: ["sofra tasarımı", "masa düzeni", "sofra adabı", "masa süsleme", "sofra kurma", "davet sofrası", "mum ışığında akşam yemeği", "nişan sofrası", "yapay zekâ tasarım stüdyosu", "estetik"],
   },
   nav: {
     home: "Ana Sayfa",
@@ -259,6 +262,7 @@ const tr: Dictionary = {
     homeLink: "Tüm yazıları oku",
     read: "Oku",
     shareCta: "Bir sonraki için Instagram'da takip et",
+    sources: "Kaynaklar",
   },
   about: {
     eyebrow: "Stüdyo",
@@ -299,9 +303,10 @@ const tr: Dictionary = {
 
 const fr: Dictionary = {
   meta: {
-    title: "Ouisecretvie Studio · where ideas breathe",
+    title: "Ouisecretvie Studio · Art de la Table, Décoration et Savoir-vivre",
     description:
-      "Un studio de design IA qui imagine des tables dans de beaux lieux : de longs dîners dans des ruines antiques, des tables aux bougies parmi les colonnes de pierre.",
+      "Un studio de design IA qui imagine des tables dans de beaux lieux, avec des chroniques sur l'art de la table, le savoir-vivre, l'art et l'esthétique.",
+    keywords: ["art de la table", "décoration de table", "dresser la table", "savoir-vivre à table", "dîner aux chandelles", "idées de dîner", "recevoir", "studio de design IA", "wabi-sabi"],
   },
   nav: {
     home: "Accueil",
@@ -405,6 +410,7 @@ const fr: Dictionary = {
     homeLink: "Lire toutes les chroniques",
     read: "Lire",
     shareCta: "Suivez-nous sur Instagram pour la prochaine",
+    sources: "Sources",
   },
   about: {
     eyebrow: "Le studio",

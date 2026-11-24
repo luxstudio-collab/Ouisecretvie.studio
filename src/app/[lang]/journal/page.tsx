@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { pageMetadata } from "@/lib/seo";
 import ColumnCard from "@/components/ColumnCard";
 import PageIntro from "@/components/PageIntro";
 import { getDictionary } from "@/content/dictionaries";
@@ -12,7 +13,7 @@ export async function generateMetadata({
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const t = getDictionary(lang).journal;
-  return { title: t.title, description: t.lead };
+  return pageMetadata({ lang, path: "/journal", title: t.title, description: t.lead });
 }
 
 export default async function JournalPage({ params }: PageProps<"/[lang]/journal">) {

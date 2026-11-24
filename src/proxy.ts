@@ -28,6 +28,7 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Skip Next.js internals and files such as images or the favicon.
-  matcher: ["/((?!_next|.*\\..*).*)"],
+  // Skip Next.js internals, app icons and files such as sitemap.xml,
+  // robots.txt or images.
+  matcher: ["/((?!_next|apple-icon|icon|.*\\..*).*)"],
 };

@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { pageMetadata } from "@/lib/seo";
 import { getDictionary } from "@/content/dictionaries";
 import { formatDate, formatTL, getLook, lookTotal, looks } from "@/content/looks";
-import { hasLocale, locales, site } from "@/content/site";
+import { hasLocale, locales } from "@/content/site";
 
 export function generateStaticParams() {
   return locales.flatMap((lang) => looks.map((look) => ({ lang, slug: look.slug })));
@@ -16,15 +17,13 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const look = getLook(slug);
   if (!hasLocale(lang) || !look) return {};
-  return {
+  return pageMetadata({
+    lang,
+    path: `/looks/${look.slug}`,
     title: look.title,
     description: look.formula,
-    openGraph: {
-      title: look.title,
-      description: look.formula,
-      images: [{ url: `${site.url}${look.image}`, width: 1080, height: 1350 }],
-    },
-  };
+    images: [{ url: look.image, width: 1080, height: 1350, alt: look.title }],
+  });
 }
 
 export default async function LookPage({ params }: PageProps<"/[lang]/looks/[slug]">) {

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { pageMetadata } from "@/lib/seo";
 import Artwork from "@/components/Artwork";
 import PageIntro from "@/components/PageIntro";
 import { getDictionary } from "@/content/dictionaries";
@@ -11,7 +12,7 @@ export async function generateMetadata({
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const t = getDictionary(lang).about;
-  return { title: t.eyebrow, description: t.paragraphs[0] };
+  return pageMetadata({ lang, path: "/about", title: t.title, description: t.paragraphs[0] });
 }
 
 export default async function AboutPage({ params }: PageProps<"/[lang]/about">) {

@@ -2,6 +2,7 @@
 // new slug and write the text in the three languages. Newest goes first.
 
 import type { ArtVariant } from "./gallery";
+import { stories } from "./journal-stories";
 import type { Locale } from "./site";
 
 type Localized = Record<Locale, string>;
@@ -20,9 +21,10 @@ export type Column = {
   title: Localized;
   lead: Localized;
   body: Block[];
+  sources?: { title: string; url: string }[];
 };
 
-export const columns: Column[] = [
+const essays: Column[] = [
   {
     slug: "mum-isiginin-kurali",
     date: "2026-11-24",
@@ -45,6 +47,14 @@ export const columns: Column[] = [
           en: "A room goes quiet when the overhead light goes off and the first candle is lit. Voices soften, faces warm, and the table suddenly looks finished. That is not luck. It is light doing the last part of the design.",
           tr: "Tavan ışığı söndüğünde ve ilk mum yandığında oda bir anlığına susar. Sesler yumuşar, yüzler ısınır ve sofra birden tamamlanmış görünür. Bu bir tesadüf değil; tasarımın son kısmını ışık üstlenir.",
           fr: "Une pièce se tait quand le plafonnier s'éteint et que la première bougie s'allume. Les voix s'adoucissent, les visages se réchauffent et la table paraît soudain achevée. Ce n'est pas un hasard : c'est la lumière qui signe la dernière partie du décor.",
+        },
+      },
+      {
+        type: "p",
+        text: {
+          en: "There is a little physics behind it. A candle flame burns at a colour temperature of roughly 1,800 to 1,900 kelvin, far warmer than daylight. That warm, red-rich light deepens the reds and golds in skin and softens everything else.",
+          tr: "Bunun arkasında biraz fizik var. Mum alevi yaklaşık 1.800–1.900 kelvin renk sıcaklığında yanar; gün ışığından çok daha sıcaktır. Kırmızıca zengin bu sıcak ışık, tenin kızıl ve altın tonlarını derinleştirir, gerisini yumuşatır.",
+          fr: "Il y a un peu de physique derrière tout cela. Une flamme de bougie brûle à une température de couleur d'environ 1 800 à 1 900 kelvins, bien plus chaude que la lumière du jour. Cette lumière chaude, riche en rouge, approfondit les tons rouges et dorés de la peau et adoucit tout le reste.",
         },
       },
       { type: "h", text: { en: "Keep the flame below the eyes", tr: "Alevi göz hizasının altında tut", fr: "Gardez la flamme sous le regard" } },
@@ -81,6 +91,10 @@ export const columns: Column[] = [
           fr: "Une table qui brille déjà dit : nous vous attendions. C'est l'accueil le plus discret qui soit.",
         },
       },
+    ],
+    sources: [
+      { title: "Color temperature (Wikipedia)", url: "https://en.wikipedia.org/wiki/Color_temperature" },
+      { title: "What is lighting color temperature? (Louis Poulsen)", url: "https://www.louispoulsen.com/en-us/guides-inspiration/what-is-lighting-color-temperature" },
     ],
   },
   {
@@ -189,6 +203,9 @@ export const columns: Column[] = [
   },
 ];
 
+// Research-based stories first, then the short studio essays.
+export const columns: Column[] = [...stories, ...essays];
+
 export const getColumn = (slug: string) => columns.find((c) => c.slug === slug);
 
 /** Rough reading time in minutes (about 200 words a minute). */
@@ -196,7 +213,7 @@ export const readingMinutes = (column: Column, lang: Locale) => {
   const words = [column.lead[lang], ...column.body.map((b) => b.text[lang])]
     .join(" ")
     .split(/\s+/).length;
-  return Math.max(1, Math.round(words / 200));
+  return Math.max(1, Math.ceil(words / 200));
 };
 
 export const formatColumnDate = (iso: string, lang: Locale) =>

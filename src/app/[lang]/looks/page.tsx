@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { pageMetadata } from "@/lib/seo";
 import PageIntro from "@/components/PageIntro";
 import { getDictionary } from "@/content/dictionaries";
 import { formatTL, lookTotal, looks } from "@/content/looks";
@@ -13,7 +14,7 @@ export async function generateMetadata({
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const t = getDictionary(lang).looks;
-  return { title: t.title, description: t.lead };
+  return pageMetadata({ lang, path: "/looks", title: t.title, description: t.lead });
 }
 
 export default async function LooksPage({ params }: PageProps<"/[lang]/looks">) {

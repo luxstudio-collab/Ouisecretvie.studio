@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import FloatingInstagram from "@/components/FloatingInstagram";
 import { getDictionary } from "@/content/dictionaries";
 import { hasLocale, locales, site } from "@/content/site";
+import { abs, jsonLd } from "@/lib/seo";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -44,17 +45,24 @@ export async function generateMetadata({
     metadataBase: new URL(site.url),
     title: { default: dict.meta.title, template: `%s · ${site.name}` },
     description: dict.meta.description,
-    alternates: {
-      canonical: `/${lang}`,
-      languages: Object.fromEntries(locales.map((l) => [l, `/${l}`])),
+    keywords: dict.meta.keywords,
+    applicationName: site.name,
+    authors: [{ name: site.name, url: site.url }],
+    creator: site.name,
+    publisher: site.name,
+    category: "design",
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
+      },
     },
-    openGraph: {
-      title: dict.meta.title,
-      description: dict.meta.description,
-      siteName: site.name,
-      locale: lang,
-      type: "website",
-    },
+    formatDetection: { telephone: false, email: false, address: false },
     appleWebApp: { title: site.monogram, statusBarStyle: "default" },
   };
 }
@@ -82,6 +90,33 @@ export default async function RootLayout({
       className={`${cormorant.variable} ${jost.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={jsonLd({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": abs("/#organization"),
+                name: site.name,
+                alternateName: site.monogram,
+                url: site.url,
+                logo: abs("/icon.svg"),
+                slogan: "where ideas breathe",
+                sameAs: [site.instagram.url],
+              },
+              {
+                "@type": "WebSite",
+                "@id": abs("/#website"),
+                name: site.name,
+                url: site.url,
+                inLanguage: lang,
+                description: dict.meta.description,
+                publisher: { "@id": abs("/#organization") },
+              },
+            ],
+          })}
+        />
         <Header
           lang={lang}
           name={site.name}

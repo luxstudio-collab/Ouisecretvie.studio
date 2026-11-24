@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { pageMetadata } from "@/lib/seo";
 import Artwork from "@/components/Artwork";
 import ColumnCard from "@/components/ColumnCard";
 import InstagramIcon from "@/components/InstagramIcon";
@@ -9,6 +11,15 @@ import { concepts } from "@/content/gallery";
 import { columns } from "@/content/journal";
 import { looks } from "@/content/looks";
 import { hasLocale, site } from "@/content/site";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[lang]">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const m = getDictionary(lang).meta;
+  return pageMetadata({ lang, path: "", title: m.title, absoluteTitle: true, description: m.description });
+}
 
 export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;

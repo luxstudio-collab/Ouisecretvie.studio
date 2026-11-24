@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { pageMetadata } from "@/lib/seo";
 import GalleryGrid from "@/components/GalleryGrid";
 import PageIntro from "@/components/PageIntro";
 import { getDictionary } from "@/content/dictionaries";
@@ -11,7 +12,7 @@ export async function generateMetadata({
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const t = getDictionary(lang).gallery;
-  return { title: t.title, description: t.lead };
+  return pageMetadata({ lang, path: "/gallery", title: t.title, description: t.lead });
 }
 
 export default async function GalleryPage({ params }: PageProps<"/[lang]/gallery">) {
