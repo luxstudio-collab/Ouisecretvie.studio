@@ -2,9 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Artwork from "@/components/Artwork";
+import ColumnCard from "@/components/ColumnCard";
 import InstagramIcon from "@/components/InstagramIcon";
 import { getDictionary } from "@/content/dictionaries";
 import { concepts } from "@/content/gallery";
+import { columns } from "@/content/journal";
 import { looks } from "@/content/looks";
 import { hasLocale, site } from "@/content/site";
 
@@ -275,6 +277,33 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
               </Link>
             );
           })}
+        </div>
+      </section>
+
+      {/* 6b · From the journal: short columns */}
+      <section className="mx-auto max-w-6xl px-4 pt-24 sm:px-6 md:pt-32 lg:px-10">
+        <div className="mb-10 flex items-end justify-between gap-6">
+          <div>
+            <p className="eyebrow">{dict.journal.eyebrow}</p>
+            <h2 className="mt-3 font-serif text-4xl italic sm:text-5xl">{dict.journal.homeTitle}</h2>
+          </div>
+          <Link
+            href={`/${lang}/journal`}
+            className="inline-flex min-h-11 items-center border-b border-ink/30 text-xs tracking-[0.14em] uppercase hover:border-accent hover:text-accent sm:text-sm"
+          >
+            {dict.journal.homeLink} →
+          </Link>
+        </div>
+        <div className="grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+          {columns.slice(0, 3).map((c, i) => (
+            <ColumnCard
+              key={c.slug}
+              column={c}
+              lang={lang}
+              minutesLabel={dict.journal.minutes}
+              index={i}
+            />
+          ))}
         </div>
       </section>
 

@@ -77,7 +77,7 @@ export default function Header({
           <span className="grid h-10 w-10 place-items-center rounded-full border border-ink/25 font-serif text-sm tracking-[0.12em]">
             {monogram}
           </span>
-          <span className="hidden font-serif text-xl tracking-wide sm:inline">
+          <span className="hidden font-serif text-xl tracking-wide whitespace-nowrap sm:inline">
             {name}
           </span>
         </Link>
@@ -88,13 +88,13 @@ export default function Header({
               key={item.href}
               href={item.href}
               aria-current={isActive(item.href) ? "page" : undefined}
-              className={`relative flex min-h-11 items-center px-4 text-sm tracking-[0.14em] uppercase transition-colors hover:text-accent ${
+              className={`relative flex min-h-11 items-center px-3 text-sm tracking-[0.12em] whitespace-nowrap uppercase transition-colors hover:text-accent ${
                 isActive(item.href) ? "text-ink" : "text-muted"
               }`}
             >
               {item.label}
               {isActive(item.href) && (
-                <span className="absolute inset-x-4 bottom-2 h-px bg-accent" />
+                <span className="absolute inset-x-3 bottom-2 h-px bg-accent" />
               )}
             </Link>
           ))}

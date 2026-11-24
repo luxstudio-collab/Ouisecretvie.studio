@@ -6,6 +6,7 @@ import InstagramIcon from "./InstagramIcon";
 export default function Footer({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const links = [
     { href: `/${lang}/gallery`, label: dict.nav.gallery },
+    { href: `/${lang}/journal`, label: dict.nav.journal },
     { href: `/${lang}/about`, label: dict.nav.about },
     { href: `/${lang}/contact`, label: dict.nav.contact },
   ];

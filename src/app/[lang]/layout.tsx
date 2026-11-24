@@ -71,6 +71,7 @@ export default async function RootLayout({
     { href: `/${lang}`, label: dict.nav.home },
     { href: `/${lang}/gallery`, label: dict.nav.gallery },
     { href: `/${lang}/looks`, label: dict.nav.looks },
+    { href: `/${lang}/journal`, label: dict.nav.journal },
     { href: `/${lang}/about`, label: dict.nav.about },
     { href: `/${lang}/contact`, label: dict.nav.contact },
   ];
