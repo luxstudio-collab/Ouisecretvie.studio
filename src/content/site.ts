@@ -21,6 +21,8 @@ export const site = {
     handle: "@ouisecretvie.studio",
     url: "https://www.instagram.com/ouisecretvie.studio/",
   },
+  // Google Search Console ownership check (HTML tag method).
+  googleSiteVerification: "MY6WJtNVl4ICY6IA7HkA2mVAUyFRIRi1Ra_9wBGXULQ",
   // Leave empty to hide the e-mail link on the contact page.
   email: "",
 };

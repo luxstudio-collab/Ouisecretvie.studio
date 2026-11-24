@@ -63,6 +63,7 @@ export async function generateMetadata({
       },
     },
     formatDetection: { telephone: false, email: false, address: false },
+    verification: { google: site.googleSiteVerification },
     appleWebApp: { title: site.monogram, statusBarStyle: "default" },
   };
 }
