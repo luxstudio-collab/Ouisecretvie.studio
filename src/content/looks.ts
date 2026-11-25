@@ -15,6 +15,7 @@ export type LookItem = {
   currency?: "TL" | "USD"; // only when this item differs from the look
   url: string; // the product page in the shop (Turkish site)
   note?: string; // campaign or stock note, optional
+  affiliate?: boolean; // url is an affiliate tracking link (e.g. Awin)
 };
 
 export type Look = {
