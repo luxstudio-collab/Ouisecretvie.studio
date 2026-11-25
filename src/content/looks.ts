@@ -11,9 +11,10 @@ export type LookItem = {
   category: string;
   brand: string;
   name: string;
-  price: number; // TL
-  url: string; // the product page in the shop (Turkish site)
+  price: number; // in the look's currency (TL unless the look says otherwise)
+  url: string; // the product page in the shop (or the affiliate link)
   note?: string; // campaign or stock note, optional
+  affiliate?: boolean; // true when url is an affiliate link (we may earn a commission)
 };
 
 export type Look = {
@@ -24,6 +25,7 @@ export type Look = {
   gender: "kadin" | "erkek";
   formula: string;
   image: string;
+  currency?: "TRY" | "USD"; // defaults to TRY
   items: LookItem[];
 };
 
@@ -38,6 +40,13 @@ export const lookTotal = (look: Look) =>
 
 export const formatTL = (value: number) =>
   new Intl.NumberFormat("tr-TR", { maximumFractionDigits: 2 }).format(value) + " TL";
+
+export const formatPrice = (value: number, currency: Look["currency"] = "TRY") =>
+  currency === "USD"
+    ? new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(value)
+    : formatTL(value);
+
+export const hasAffiliate = (look: Look) => look.items.some((item) => item.affiliate);
 
 export const formatDate = (iso: string, lang: string) =>
   new Intl.DateTimeFormat(lang === "tr" ? "tr-TR" : lang === "fr" ? "fr-FR" : "en-GB", {

@@ -99,6 +99,7 @@ const en = {
     note: "Prices and stock as checked on the date shown. Links go to the retailer's own site.",
     women: "Women",
     men: "Men",
+    affiliate: "Some links on this page are affiliate links: if you buy through them we may earn a small commission, at no extra cost to you.",
   },
   journal: {
     eyebrow: "Journal",
@@ -260,6 +261,7 @@ const tr: Dictionary = {
     note: "Fiyat ve stok, belirtilen tarihte kontrol edildi. Linkler markanın kendi sitesine gider.",
     women: "Kadın",
     men: "Erkek",
+    affiliate: "Bu sayfadaki bazı linkler affiliate (gelir ortaklığı) linkidir: bu linklerden alışveriş yaparsan, sana ek bir maliyeti olmadan küçük bir komisyon kazanabiliriz.",
   },
   journal: {
     eyebrow: "Köşe",
@@ -419,6 +421,7 @@ const fr: Dictionary = {
     note: "Prix et stock vérifiés à la date indiquée. Les liens mènent au site de la marque.",
     women: "Femme",
     men: "Homme",
+    affiliate: "Certains liens de cette page sont des liens affiliés : si vous achetez via ces liens, nous pouvons toucher une petite commission, sans frais supplémentaires pour vous.",
   },
   journal: {
     eyebrow: "Chroniques",

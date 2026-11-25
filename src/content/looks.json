@@ -1,5 +1,64 @@
 [
  {
+  "slug": "pilates-mocha-bone",
+  "date": "2026-11-25",
+  "title": "Sporty Şık: Ev Pilatesi, Mocha & Bone",
+  "subtitle": "Sporty şık · Ev stüdyosu",
+  "gender": "kadin",
+  "currency": "USD",
+  "formula": "Taupe mat, ceviz ağacı dambıl, çikolata kahve bant ve kalpli grip çorap: spor köşesini salonun bir parçası gibi kur. Renkler kahve, bej ve gri arasında kalıyor; altın sadece matın üzerindeki yin-yang mühründe.",
+  "image": "/looks/pilates-mocha-bone.jpg",
+  "items": [
+   {
+    "category": "Mat seti",
+    "brand": "PersonalHour",
+    "name": "Mat Pilates 101 Kit, eksiksiz başlangıç seti",
+    "price": 176.0,
+    "url": "https://personalhour.com/products/mat-pilates-101-kit-complete-starter-bundle-by-personalhour%C2%AE",
+    "note": "Black Friday: $239 yerine $176"
+   },
+   {
+    "category": "Ağırlık",
+    "brand": "PersonalHour",
+    "name": "Masif ceviz ağacı dambıl, 2'li set (1 kg)",
+    "price": 149.0,
+    "url": "https://personalhour.com/products/luxury-black-walnut-solid-wood-dumbbell-set-ac00701",
+    "note": "$190 yerine $149"
+   },
+   {
+    "category": "Direnç bandı",
+    "brand": "PersonalHour",
+    "name": "Kaymaz kumaş pilates bandı, chocolate / bone",
+    "price": 9.8,
+    "url": "https://personalhour.com/products/pilates-band-non-slip-fabric",
+    "note": "Black Friday: bone renk $9,80"
+   },
+   {
+    "category": "Çorap",
+    "brand": "PersonalHour",
+    "name": "Pilates grip çorap, Heart Edition",
+    "price": 4.9,
+    "url": "https://personalhour.com/products/macys-personalhour-pilates-grip-socks-heart-edition",
+    "note": "$19 yerine $4,90"
+   },
+   {
+    "category": "Başlangıç seti",
+    "brand": "PersonalHour",
+    "name": "Ev için pilates başlangıç seti: halka, top, ağırlık, çorap",
+    "price": 54.7,
+    "url": "https://personalhour.com/products/pilates-equipment-for-home-starter-bundle",
+    "note": "$90 yerine $54,70"
+   },
+   {
+    "category": "Yoga matı",
+    "brand": "PersonalHour",
+    "name": "Yazılı yoga matı, gri süet yüzey",
+    "price": 59.0,
+    "url": "https://personalhour.com/products/premium-yoga-mat-with-quotes"
+   }
+  ]
+ },
+ {
   "slug": "lacivert-bitter",
   "date": "2026-11-23",
   "title": "Lacivert & Bitter",

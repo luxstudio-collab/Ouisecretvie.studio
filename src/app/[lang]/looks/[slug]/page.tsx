@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { pageMetadata } from "@/lib/seo";
 import { getDictionary } from "@/content/dictionaries";
-import { formatDate, formatTL, getLook, lookTotal, looks } from "@/content/looks";
+import { formatDate, formatPrice, getLook, hasAffiliate, lookTotal, looks } from "@/content/looks";
 import { hasLocale, locales } from "@/content/site";
 
 export function generateStaticParams() {
@@ -67,7 +67,7 @@ export default async function LookPage({ params }: PageProps<"/[lang]/looks/[slu
                 <a
                   href={item.url}
                   target="_blank"
-                  rel="noopener"
+                  rel={item.affiliate ? "sponsored noopener" : "noopener"}
                   className="group flex min-h-16 items-start gap-4 py-4 transition-colors hover:text-accent"
                 >
                   <span className="w-6 shrink-0 pt-0.5 font-serif text-lg text-muted tabular-nums">
@@ -83,7 +83,7 @@ export default async function LookPage({ params }: PageProps<"/[lang]/looks/[slu
                       {t.shop} ↗
                     </span>
                   </span>
-                  <span className="shrink-0 pt-0.5 text-sm tabular-nums">{formatTL(item.price)}</span>
+                  <span className="shrink-0 pt-0.5 text-sm tabular-nums">{formatPrice(item.price, look.currency)}</span>
                 </a>
               </li>
             ))}
@@ -91,11 +91,12 @@ export default async function LookPage({ params }: PageProps<"/[lang]/looks/[slu
 
           <div className="flex items-baseline justify-between gap-4 py-5">
             <span className="text-sm tracking-[0.14em] uppercase">{t.total}</span>
-            <span className="font-serif text-2xl tabular-nums">{formatTL(lookTotal(look))}</span>
+            <span className="font-serif text-2xl tabular-nums">{formatPrice(lookTotal(look), look.currency)}</span>
           </div>
           <p className="text-sm text-muted">
             {t.note} {formatDate(look.date, lang)}
           </p>
+          {hasAffiliate(look) && <p className="mt-3 text-sm text-muted">{t.affiliate}</p>}
         </div>
       </div>
     </article>
