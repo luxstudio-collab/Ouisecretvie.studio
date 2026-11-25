@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { pageMetadata } from "@/lib/seo";
 import PageIntro from "@/components/PageIntro";
 import { getDictionary } from "@/content/dictionaries";
-import { formatPrice, lookTotal, looks } from "@/content/looks";
+import { formatLookTotal, looks } from "@/content/looks";
 import { hasLocale } from "@/content/site";
 
 export async function generateMetadata({
@@ -46,7 +46,7 @@ export default async function LooksPage({ params }: PageProps<"/[lang]/looks">) 
                 <h2 className="mt-2 font-serif text-2xl leading-tight group-hover:text-accent">
                   {look.title}
                 </h2>
-                <p className="mt-1 text-sm text-muted">{formatPrice(lookTotal(look), look.currency)}</p>
+                <p className="mt-1 text-sm text-muted">{formatLookTotal(look)}</p>
               </div>
             </Link>
           </article>

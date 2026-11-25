@@ -875,5 +875,99 @@
     "note": "20.790 TL yerine 12.469 TL, sepette otomatik %10 ile 11.222,10 TL (%46) · 25.11 itibarıyla. Stok az (2 adet görünüyor)."
    }
   ]
+ },
+ {
+  "slug": "pilates-espresso-bone",
+  "date": "2026-11-25",
+  "title": "Pazar Sabahı Pilates: Espresso Ribana, Krem Sweat ve Pembe AP",
+  "subtitle": "Sporty · pilates aksesuarları",
+  "gender": "kadin",
+  "formula": "Pazar sabahı stüdyo: espresso ribanalı Alo set matta son esnemede, bilekte pembe kayışlı AP Royal Oak Offshore. Yanında bone ağırlık bilezikleri, oval ve ceviz dambıllar, ayakta grip çorap. Ders bitince krem yarım fermuarlı sweat, bej NY şapka ve espresso süet sneakerla kahveye.",
+  "image": "/looks/pilates-espresso-bone.jpg",
+  "currency": "USD",
+  "items": [
+   {
+    "category": "Ribanalı şort",
+    "brand": "Alo Yoga",
+    "name": "5\" Seamless Ribbed Favorite Short, Espresso",
+    "price": 54.0,
+    "url": "https://www.aloyoga.com/products/w6290r-5-seamless-ribbed-favorite-short-espresso",
+    "note": "$78 → $54 (%31) · sitede %30 indirim · 25.11 itibarıyla"
+   },
+   {
+    "category": "Ribanalı bra tank",
+    "brand": "Alo Yoga",
+    "name": "Seamless Ribbed Favorite Full Length Bra Tank, Espresso (figürdeki üst)",
+    "price": 61.0,
+    "url": "https://www.aloyoga.com/products/w9698r-seamless-ribbed-favorite-full-length-bra-tank-espresso",
+    "note": "$88 → $61 (%31) · 25.11 itibarıyla"
+   },
+   {
+    "category": "Yarım fermuarlı sweat",
+    "brand": "Lacoste (Occasion)",
+    "name": "Relaxed fit krem yarım fermuarlı sweatshirt, dik yaka, tonal küçük logo",
+    "price": 5199.35,
+    "url": "https://www.occasion.com.tr/kadin-relaxed-fit-yarim-fermuarli-krem-sweatshirt-sf2609-1/",
+    "note": "12.999 → 7.999 TL, sepette %35 ile 5.199,35 TL (toplam %60) · 25.11 itibarıyla",
+    "currency": "TL"
+   },
+   {
+    "category": "Şapka",
+    "brand": "New Era (Occasion)",
+    "name": "Tonal 9Forty NY şapka, bej; ton sür ton küçük NY nakışı",
+    "price": 1889.1,
+    "url": "https://www.occasion.com.tr/new-era-tonal-9forty-neyyan-unisex-bej-sapka-60137475/",
+    "note": "2.099 TL, sepette %10 ile 1.889,10 TL · 25.11 itibarıyla",
+    "currency": "TL"
+   },
+   {
+    "category": "Saat",
+    "brand": "Audemars Piguet",
+    "name": "Royal Oak Offshore Selfwinding Chronograph 37 mm, titanyum, pırlanta bezel, pembe kadran ve pembe kauçuk kayış (26430IS.ZZ.A514CA.01)",
+    "price": 0,
+    "url": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak-offshore/26430IS.ZZ.A514CA.01-B.html",
+    "note": "Fiyat talep üzerine (AP butikleri)"
+   },
+   {
+    "category": "Ağırlık bilezikleri",
+    "brand": "PersonalHour",
+    "name": "Weighted Pilates Bangles, Natural Bone; ayarlanabilir el-ayak bileği ağırlığı (çift)",
+    "price": 39.0,
+    "url": "https://www.personalhour.com/products/weighted-pilates-bangles-adjustable-ankle-and-wrist-weights",
+    "note": "$78 → $39 (%50) · 25.11 itibarıyla"
+   },
+   {
+    "category": "Ceviz ağacı dambıl",
+    "brand": "PersonalHour",
+    "name": "Solid Walnut Wood Dumbbell (Set of 2), 1 kg; siparişe üretim",
+    "price": 149.0,
+    "url": "https://www.personalhour.com/products/luxury-black-walnut-solid-wood-dumbbell-set-ac00701",
+    "note": "$190 → $149 (%22) · 25.11 itibarıyla"
+   },
+   {
+    "category": "Grip çorap",
+    "brand": "Alo Yoga",
+    "name": "Ballet Grip Sock, Espresso; bale babeti formunda kaydırmaz çorap",
+    "price": 26.0,
+    "url": "https://www.aloyoga.com/products/a0934w-ballet-grip-sock-espresso",
+    "note": "$38 → $26 (%32) · 25.11 itibarıyla"
+   },
+   {
+    "category": "Süet sneaker",
+    "brand": "Alo Yoga",
+    "name": "ALO Sunset Sneaker, Espresso; %100 süet, ince taban",
+    "price": 157.0,
+    "url": "https://www.aloyoga.com/products/a0891u-alo-sunset-sneaker-espresso",
+    "note": "$225 → $157 (%30) · sitede %30 indirim · 25.11 itibarıyla"
+   },
+   {
+    "category": "Oval dambıl",
+    "brand": "PersonalHour",
+    "name": "Oval Pilates Dumbbells (Set of 2), Natural Bone",
+    "price": 39.5,
+    "url": "https://www.personalhour.com/products/set-of-2-oval-pilates-dumbbells",
+    "note": "$78 → $39.50 (%49) · 25.11 itibarıyla"
+   }
+  ]
  }
 ]
