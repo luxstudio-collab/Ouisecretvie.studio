@@ -11,7 +11,7 @@ export type LookItem = {
   category: string;
   brand: string;
   name: string;
-  price: number; // TL
+  price: number; // in the look's currency (TL unless the look says otherwise)
   url: string; // the product page in the shop (Turkish site)
   note?: string; // campaign or stock note, optional
 };
@@ -24,6 +24,7 @@ export type Look = {
   gender: "kadin" | "erkek";
   formula: string;
   image: string;
+  currency?: "TL" | "USD"; // default TL; USD for shops that sell only in dollars
   items: LookItem[];
 };
 
@@ -38,6 +39,11 @@ export const lookTotal = (look: Look) =>
 
 export const formatTL = (value: number) =>
   new Intl.NumberFormat("tr-TR", { maximumFractionDigits: 2 }).format(value) + " TL";
+
+export const formatPrice = (value: number, currency: Look["currency"] = "TL") =>
+  currency === "USD"
+    ? "$" + new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(value)
+    : formatTL(value);
 
 export const formatDate = (iso: string, lang: string) =>
   new Intl.DateTimeFormat(lang === "tr" ? "tr-TR" : lang === "fr" ? "fr-FR" : "en-GB", {
