@@ -972,5 +972,377 @@
     "affiliate": true
    }
   ]
+ },
+ {
+  "slug": "panodan-gri-asimetrik-bordo",
+  "date": "2026-11-26",
+  "title": "Panodan: Gri Asimetrik Ceket, Bordo Rugan Çizme ve Altın",
+  "subtitle": "Panodan · Efsane Cuma",
+  "gender": "kadin",
+  "formula": "Gri asimetrik kruvaze ceketi gri balıkçının üstüne kapat, gri pileli pantolonla tek ton bir sütun kur, bordo rugan çizme ve büzgülü bordo çantayla tek vurguyu iki kez söyle, sarı altın AP Royal Oak Mini, heykelsi altın küpe ve kelepçeyle bitir; Place Vendôme'da yağmur öncesi bir öğleden sonra.",
+  "image": "/looks/panodan-gri-asimetrik-bordo.jpg",
+  "items": [
+   {
+    "category": "Ceket",
+    "brand": "Koton",
+    "name": "Gri dik yaka asimetrik kruvaze blazer ceket (pindeki heykelsi ceketin en yakın karşılığı; siyah düğmeli, metal yok)",
+    "price": 2799.99,
+    "url": "https://www.koton.com/cepli-regular-fit-uzun-kollu-dugmeli-dik-yaka-kruvaze-blazer-ceket-gri-4203443/"
+   },
+   {
+    "category": "Balıkçı yaka triko",
+    "brand": "Koton",
+    "name": "Gri ince balıkçı yaka triko kazak (yakası ceketin dik yakasından görünür)",
+    "price": 1299.99,
+    "url": "https://www.koton.com/uzun-kollu-balikci-yaka-triko-kazak-gri-4144563-1/"
+   },
+   {
+    "category": "Pantolon",
+    "brand": "Ceren Ocak",
+    "name": "BELT DETAILED PANT, gri; çift pileli, rahat düz/geniş paça, ince siyah kemerli",
+    "price": 12080,
+    "url": "https://cerenocak.com/products/pant"
+   },
+   {
+    "category": "Çizme",
+    "brand": "Derimod",
+    "name": "Bordo rugan diz boyu çizme, sivri burun, ince topuk",
+    "price": 5999,
+    "url": "https://www.derimod.com.tr/products/kadin-bordo-kisa-ince-topuklu-rugan-cizme-wf550003sr-5637145431"
+   },
+   {
+    "category": "Çanta",
+    "brand": "Derimod",
+    "name": "Bordo rugan büzgülü (drape) abiye omuz çantası, altın zincir askı; pindeki pileli çantaya en yakın siluet",
+    "price": 3499,
+    "url": "https://www.derimod.com.tr/products/kadin-bordo-zincir-askili-rugan-abiye-omuz-cantasi-ab240004sr-5637145431"
+   },
+   {
+    "category": "Küpe",
+    "brand": "Ipekyol",
+    "name": "Altın metal maksi küpe, heykelsi yaprak/damla form",
+    "price": 1299,
+    "url": "https://www.ipekyol.com.tr/urun/altin-kupe-tr-52041"
+   },
+   {
+    "category": "Bilezik",
+    "brand": "Ipekyol",
+    "name": "Altın hacimli metal kelepçe bileklik, heykelsi",
+    "price": 1299,
+    "url": "https://www.ipekyol.com.tr/urun/altin-hacimli-metal-bileklik"
+   },
+   {
+    "category": "Saat",
+    "brand": "Audemars Piguet",
+    "name": "Royal Oak Mini Frosted Gold 23 mm, sarı altın, sedef kadran (67630BA)",
+    "price": 0,
+    "url": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/67630BA.OO.1312BA.03-B.html",
+    "note": "Fiyat talep üzerine (AP butikleri)"
+   }
+  ]
+ },
+ {
+  "slug": "serenay-fildisi-saten-yali",
+  "date": "2026-11-26",
+  "title": "Yalı Daveti: Fildişi Drape Bluz, Beyaz Geniş Paça ve Pırlanta",
+  "subtitle": "Türk ikon · Serenay Sarıkaya",
+  "gender": "kadin",
+  "formula": "Boyna bağlanan fildişi drape bluzu yüksek bel ekru geniş paçayla tek parça gibi akıt, siyah rugan stiletto ve siyah zincirli clutch ile keskinleştir, gümüş avize küpe, taşlı gerdanlık ve çelik AP Royal Oak ile ışığı topla; Kanlıca'da bir yalının iskelesinde akşam.",
+  "image": "/looks/serenay-fildisi-saten-yali.jpg",
+  "items": [
+   {
+    "category": "Bluz",
+    "brand": "Ipekyol",
+    "name": "Ekru degaje yaka bluz; dökümlü degaje yaka ve boyna bağlanan uzun fular, saten parlaklığında %100 viskoz. Kural: fildişi, drape + fiyonk bağı kahraman detayı, logo yok.",
+    "price": 6999,
+    "url": "https://www.ipekyol.com.tr/urun/ekru-degaje-yaka-bluz"
+   },
+   {
+    "category": "Pantolon",
+    "brand": "Ipekyol",
+    "name": "Ekru pileli wide leg pantolon, yüksek bel, pensli, astarlı. Kural: krem/beyaz, geniş paça, düz; metal yok.",
+    "price": 5999,
+    "url": "https://www.ipekyol.com.tr/urun/ekru-pileli-wide-leg-pantolon"
+   },
+   {
+    "category": "Stiletto",
+    "brand": "Derimod",
+    "name": "Siyah rugan sivri burun stiletto, bilekten bantlı, 10 cm ince topuk. Gümüş toka. Not: iç astarı bordo (yandan görünür), tabanda küçük Derimod logosu.",
+    "price": 5499,
+    "url": "https://www.derimod.com.tr/products/kadin-siyah-bilekten-tokali-yuksek-ince-topuklu-rugan-stiletto-af500000sr-5637145339"
+   },
+   {
+    "category": "Zincirli clutch",
+    "brand": "Arzu Kaprol",
+    "name": "Zincir detaylı siyah deri portföy (bilek askılı clutch), dalga dokulu deri, füme/gümüş zincir.",
+    "price": 16500,
+    "url": "https://arzukaprol.com/products/zincir-detayli-deri-omuz-canta"
+   },
+   {
+    "category": "Avize küpe",
+    "brand": "Koton",
+    "name": "Koton x Sibil Çetinkaya taşlı zincir detaylı sallantılı küpe, gümüş rengi; gül tepelik + şelale gibi uzun kristal zincirler (avize etkisi).",
+    "price": 799.99,
+    "url": "https://www.koton.com/tasli-zincir-detayli-sallantili-gul-kupe-koton-x-sibil-cetinkaya-gumus-rengi-4085538/"
+   },
+   {
+    "category": "Gerdanlık",
+    "brand": "Roman",
+    "name": "Taşlı ve inci sarkıtlı abiye kolye (inci-siyah): gümüş tonlu choker; inci sıraları, kristaller ve siyah oval taş. Fildişi + siyah paletiyle birebir.",
+    "price": 12599.99,
+    "url": "https://roman.com.tr/tr/products/47232/tasli-ve-inci-sarkitli-abiye-kolye-inci-siyah",
+    "note": "17.999,99 → 12.599,99 TL (%30) · Efsane Cuma 'net %30 indirim' · 26.11 itibarıyla · stokta"
+   },
+   {
+    "category": "Bilezik",
+    "brand": "Koton",
+    "name": "Koton x Sibil Çetinkaya taşlı kalın bileklik, gümüş rengi; çok sıra kristal, esnek kelepçe.",
+    "price": 699.99,
+    "url": "https://www.koton.com/tasli-kalin-bileklik-koton-x-sibil-cetinkaya-gumus-rengi-4211191/"
+   },
+   {
+    "category": "Saat",
+    "brand": "Audemars Piguet",
+    "name": "Royal Oak Selfwinding 34 mm, paslanmaz çelik, beyaz kadran (77450ST)",
+    "price": 0,
+    "url": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/77450ST.OO.1361ST.02.html",
+    "note": "Fiyat talep üzerine (AP butikleri)"
+   }
+  ]
+ },
+ {
+  "slug": "tek-kirmizi-hirka-flore",
+  "date": "2026-11-26",
+  "title": "Tek Bir Kırmızı Yeter: Hırka, Mavi Gömlek ve Kahve Deri",
+  "subtitle": "Hailey Bieber",
+  "gender": "kadin",
+  "formula": "Kırmızı hırkayı açık mavi gömleğin üstüne giy, yaka ve manşet taşsın; koyu indigo geniş paça jeani altın tokalı kemerle bağla, kahve deri trençkotu omza al, kırmızıyı Burberry çantada ikinci kez söyle, pembe altın AP Royal Oak ve taşlı altın halkayla bitir; Café de Flore'da bir kahve molası.",
+  "image": "/looks/tek-kirmizi-hirka-flore.jpg",
+  "items": [
+   {
+    "category": "Hırka",
+    "brand": "Koton",
+    "name": "Düğme detaylı yün karışımlı bisiklet yaka triko hırka, kırmızı (tüylü, mohair görünümlü doku, kısa boy)",
+    "price": 1499.99,
+    "url": "https://www.koton.com/dugme-detayli-yun-karisimli-uzun-kollu-bisiklet-yaka-triko-hirka-kirmizi-4155254-1/"
+   },
+   {
+    "category": "Gömlek (hırkanın altına)",
+    "brand": "Lacoste (Occasion)",
+    "name": "Lacoste Kadın Slim Fit Mavi Gömlek: açık mavi pamuklu poplin, klasik yaka, düğmeli manşet",
+    "price": 5245.1,
+    "url": "https://www.occasion.com.tr/kadin-slim-fit-mavi-gomlek-cf1152-1/",
+    "note": "9.990 → 7.493 TL (%25), sepette ek %30 ile 5.245,10 TL (toplam %47) · 26.11 itibarıyla stokta"
+   },
+   {
+    "category": "Jean",
+    "brand": "Ipekyol",
+    "name": "Yüksek bel wide leg jean pantolon, koyu indigo (ön ortada dikiş çizgisi, geniş paça)",
+    "price": 5999,
+    "url": "https://www.ipekyol.com.tr/urun/mavi-yuksek-bel-wide-leg-jean-pantolon"
+   },
+   {
+    "category": "Kemerli kısa trençkot",
+    "brand": "Koton",
+    "name": "Uzun kollu cepli rüzgâr kapaklı kemerli suni deri trençkot, kahve (kalça boyu, gömlek yaka, kemerli bel)",
+    "price": 3499.99,
+    "url": "https://www.koton.com/uzun-kollu-cepli-ruzgar-kapak-detayli-kemerli-suni-deri-trenckot-kahve-4158457/"
+   },
+   {
+    "category": "Omuz çantası (ikon)",
+    "brand": "Burberry (Occasion)",
+    "name": "Burberry Quilted Rocking Horse omuz çantası: kapitone kuzu derisi, koyu kırmızı/bordo, altın Rocking Horse 'b' kilit ve altın zincir askı",
+    "price": 40499.1,
+    "url": "https://www.occasion.com.tr/burberry-quilted-rocking-horse-kadin-bordo-omuz-cantasi-8103269/",
+    "note": "83.295 → 44.999 TL (%46), sepette ek %10 ile 40.499,10 TL (toplam %51) · 26.11 itibarıyla stokta"
+   },
+   {
+    "category": "Sivri bilek bot",
+    "brand": "Derimod",
+    "name": "Kadın kahverengi fermuarlı ince topuklu deri bot: sivri burun, ~7,5 cm ince topuk, koyu kahve deri",
+    "price": 8749,
+    "url": "https://www.derimod.com.tr/products/kadin-kahverengi-fermuarli-ince-topuklu-deri-bot-af140005dv-5637145360"
+   },
+   {
+    "category": "Kemer",
+    "brand": "Ipekyol",
+    "name": "Metal tokalı %100 deri kemer: koyu kahve/taba deri, heykelsi organik formlu altın toka",
+    "price": 3599,
+    "url": "https://www.ipekyol.com.tr/urun/taba-metal-tokali-100-deri-kemer"
+   },
+   {
+    "category": "Küpe",
+    "brand": "Roman",
+    "name": "Taşlı halka küpe: dokulu altın tonlu iri halka, üstte beyaz taş dizili kıvrımlı tutturma",
+    "price": 5809.99,
+    "url": "https://roman.com.tr/tr/products/47334/tasli-halka-kupe",
+    "note": "8.299,99 → 5.809,99 TL (%30), üstü çizili fiyat · 26.11 itibarıyla stokta"
+   },
+   {
+    "category": "Güneş gözlüğü",
+    "brand": "Bluemint",
+    "name": "JAVIER Brown Shade: yuvarlak kahve camlı, ince metal çerçeveli güneş gözlüğü",
+    "price": 7600,
+    "url": "https://www.bluemint.com/products/javier-brown-shade-gunes-gozlugu"
+   },
+   {
+    "category": "Saat",
+    "brand": "Audemars Piguet",
+    "name": "Royal Oak Selfwinding 34 mm, 18 ayar pembe altın, somon kadran (77450OR)",
+    "price": 0,
+    "url": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/77450OR.OO.1361OR.01.html",
+    "note": "Fiyat talep üzerine (AP butikleri)"
+   }
+  ]
+ },
+ {
+  "slug": "sporty-portofino-brunch",
+  "date": "2026-11-26",
+  "title": "Portofino'da Pilates Sonrası: Ekru Peluş, Gri Jogger ve Pembe AP",
+  "subtitle": "Sporty şık · Black Friday",
+  "gender": "kadin",
+  "formula": "Ekru peluş ceketi beyaz ribanalı atletin üstüne aç, gri melanj jogger ve krem New Balance 997R ile limana yürü, pembe AP Royal Oak Offshore, pembe Alo şapka ve pembe Burberry çantayla tek vurguyu üç kez söyle; çantada PersonalHour pembe direnç bandı ve kemik rengi mat. #reklam",
+  "image": "/looks/sporty-portofino-brunch.jpg",
+  "items": [
+   {
+    "category": "Peluş ceket",
+    "brand": "Koton",
+    "name": "Fermuarlı dik yaka uzun kollu peluş (sherpa) ceket, ekru",
+    "price": 3779.99,
+    "url": "https://www.koton.com/fermuarli-dik-yaka-uzun-kollu-pelus-ceket-ekru-4138001-3/"
+   },
+   {
+    "category": "Eşofman altı",
+    "brand": "Lacoste",
+    "name": "Unisex Tapered Fit açık gri melanj eşofman altı (jogger) XH0798",
+    "price": 4457.6,
+    "url": "https://www.occasion.com.tr/lacoste-unisex-tapered-fit-gri-esofman-alti-xh0798-1/",
+    "note": "8.490 → 4.457,60 TL (%47; 6.368 + sepette %30) · 26.11 itibarıyla"
+   },
+   {
+    "category": "Ribanalı atlet",
+    "brand": "Koton",
+    "name": "Bisiklet yaka kolsuz slim fit ribanalı pamuklu atlet, beyaz",
+    "price": 449.99,
+    "url": "https://www.koton.com/bisiklet-yaka-kolsuz-slim-fit-ribanali-pamuklu-atlet-beyaz-4158381/"
+   },
+   {
+    "category": "Retro sneaker",
+    "brand": "New Balance",
+    "name": "997R Lifestyle unisex krem sneaker (süet, U997RPC)",
+    "price": 3149.1,
+    "url": "https://www.occasion.com.tr/new-balance-997r-lifestyle-unisex-krem-rengi-spor-ayakkabi-u997rpc/",
+    "note": "5.999 → 3.149,10 TL (%48; 3.499 + sepette %10) · 26.11 itibarıyla"
+   },
+   {
+    "category": "Şapka",
+    "brand": "Alo Yoga",
+    "name": "Off-Duty Cap, Candy Heart Pink (tonal işlemeli küçük logo)",
+    "price": 38,
+    "url": "https://www.aloyoga.com/products/a0648u-off-duty-cap-candy-heart-pink",
+    "note": "$64 → $38 (%41, sitedeki indirim) · 26.11 itibarıyla",
+    "currency": "USD"
+   },
+   {
+    "category": "Mini omuz çantası (statü objesi)",
+    "brand": "Burberry",
+    "name": "Kadın pembe deri mini çanta, gümüş Equestrian (at) donanımlı (8083512)",
+    "price": 42299.1,
+    "url": "https://www.occasion.com.tr/burberry-kadin-pembe-canta-8083512/",
+    "note": "102.995 → 42.299,10 TL (%59; 46.999 + sepette %10) · 26.11 itibarıyla"
+   },
+   {
+    "category": "Pilates direnç bandı (pembe)",
+    "brand": "PersonalHour",
+    "name": "Resistance Band - Toning Exercises, pembe (tutmalı direnç bandı)",
+    "price": 7.7,
+    "url": "https://www.awin1.com/cread.php?awinmid=96347&awinaffid=3144407&ued=https%3A%2F%2Fwww.personalhour.com%2Fproducts%2Fresistance-band-toning-exercises",
+    "affiliate": true,
+    "note": "$19 → $7,70 (%59, Black Friday Deal, stokta) · 26.11 itibarıyla",
+    "currency": "USD"
+   },
+   {
+    "category": "Katlanır pilates matı",
+    "brand": "PersonalHour",
+    "name": "Foldable Yoga Mat, Bone",
+    "price": 67,
+    "url": "https://www.awin1.com/cread.php?awinmid=96347&awinaffid=3144407&ued=https%3A%2F%2Fwww.personalhour.com%2Fproducts%2Ffoldable-yoga-and-pilates-thick-mat-ac00778",
+    "affiliate": true,
+    "note": "$90 → $67 (%26, stokta) · 26.11 itibarıyla",
+    "currency": "USD"
+   },
+   {
+    "category": "Saat",
+    "brand": "Audemars Piguet",
+    "name": "Royal Oak Offshore Selfwinding Chronograph 37 mm, titanyum, pırlanta bezel, pembe kauçuk kayış (26430IS)",
+    "price": 0,
+    "url": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak-offshore/26430IS.ZZ.A514CA.01-B.html",
+    "note": "Fiyat talep üzerine (AP butikleri)"
+   }
+  ]
+ },
+ {
+  "slug": "erkek-camel-palto-galleria",
+  "date": "2026-11-26",
+  "title": "Erkek: Camel Burberry Palto, Antrasit Merino ve Gri Yün",
+  "subtitle": "Efsane Cuma",
+  "gender": "erkek",
+  "formula": "Camel Burberry car coat'u antrasit merino yarım fermuarlının üstüne giy, çift pileli gri yün pantolonu siyah kemerle bağla, parlak siyah Chelsea bot ve kuzu derisi eldivenle tamamla, çelik AP Royal Oak ile bitir; Milano'da Galleria'nın camlı kubbesi altında bir öğle yemeği.",
+  "image": "/looks/erkek-camel-palto-galleria.jpg",
+  "items": [
+   {
+    "category": "Camel car coat",
+    "brand": "Burberry (Occasion)",
+    "name": "Burberry The Camden Erkek Bej Palto · bal/camel tonunda, gizli patlı düz car coat, raglan kol",
+    "price": 59390.1,
+    "url": "https://www.occasion.com.tr/burberry-the-camden-erkek-bej-palto-8002397/",
+    "note": "109.990 TL yerine 65.989 TL, sepette otomatik %10 ile 59.390,10 TL (%46) · 26.11 itibarıyla. Stok çok az: yalnız 52 beden, 1 adet."
+   },
+   {
+    "category": "Antrasit merino yarım fermuarlı triko",
+    "brand": "Bluemint",
+    "name": "HORRACE Anthracite Melange · %100 ekstra ince İtalyan merino, dik yaka yarım fermuar",
+    "price": 8900,
+    "url": "https://www.bluemint.com/products/horrace-anthracite-melange-triko"
+   },
+   {
+    "category": "Gri yün pileli pantolon",
+    "brand": "Burberry (Occasion)",
+    "name": "Burberry Dalton Erkek Gri Pantolon · %100 yün, çift pileli, geniş düz paça, gri mikro kazayağı doku",
+    "price": 32660.1,
+    "url": "https://www.occasion.com.tr/burberry-dalton-erkek-gri-pantolon-8118193/",
+    "note": "65.990 TL yerine 36.289 TL, sepette otomatik %10 ile 32.660,10 TL (%51) · 26.11 itibarıyla. Bedenler 48, 50, 52, 54 stokta (1-2 adet)."
+   },
+   {
+    "category": "Siyah parlak deri Chelsea bot",
+    "brand": "Derimod",
+    "name": "Derimod Black Erkek Siyah Kalın Tabanlı Deri Casual Chelsea Bot · parlak (polished) deri, tırtıklı kalın taban",
+    "price": 8999,
+    "url": "https://www.derimod.com.tr/products/derimod-black-erkek-siyah-kalin-tabanli-deri-casual-chelsea-bot-wm730010dv-5637145339"
+   },
+   {
+    "category": "Siyah deri kemer, parlak gümüş toka",
+    "brand": "Derimod",
+    "name": "Erkek Siyah Deri Kemer · ince, parlak gümüş D/yuvarlak toka",
+    "price": 999,
+    "url": "https://www.derimod.com.tr/products/erkek-siyah-deri-kemer-000a2d1307118-5637145339",
+    "note": "Sitede üstü çizili fiyat 1.499,99 TL → 999 TL (%33) · 26.11 itibarıyla"
+   },
+   {
+    "category": "Siyah kuzu derisi eldiven",
+    "brand": "Bluemint",
+    "name": "BECWER Black · %100 kuzu derisi, %100 yün astar, üstte üç dikiş çizgisi",
+    "price": 4800,
+    "url": "https://www.bluemint.com/products/becwer-black-eldiven"
+   },
+   {
+    "category": "Saat",
+    "brand": "Audemars Piguet",
+    "name": "Royal Oak Selfwinding 41 mm, paslanmaz çelik, gri kadran (15510ST)",
+    "price": 0,
+    "url": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/15510ST.OO.1320ST.10.html",
+    "note": "Fiyat talep üzerine (AP butikleri)"
+   }
+  ]
  }
 ]
