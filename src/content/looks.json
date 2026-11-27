@@ -1726,5 +1726,83 @@
     "note": "Fiyat talep üzerine (AP butikleri)"
    }
   ]
+ },
+ {
+  "slug": "zimmermann-esarp-bluz-chantilly",
+  "date": "2026-11-27",
+  "title": "Chantilly'de Bir Öğleden Sonra: Zimmermann Eşarp Bluz, Ekru Pantolon ve Binici Çizmesi",
+  "subtitle": "Başak'ın seçimi",
+  "gender": "kadin",
+  "formula": "Zimmermann'ın at, eyer ve halat desenli ipek eşarp bluzunu kahraman yap: mendil kolları serbest bırak, düğümü bele oturt. Altına ekru düz paça pantolonu çikolata binici çizmesine sok, desendeki bordoyu Burberry Bridle eyer çantada ikinci kez söyle, altın halat ve sarı altın AP Royal Oak Mini ile bitir. Chantilly'nin tarihi at ahırlarının önünde bir öğleden sonra.",
+  "image": "/looks/zimmermann-esarp-bluz-chantilly.jpg",
+  "place": {
+   "label": "Grandes Écuries · Chantilly, Fransa",
+   "url": "https://www.google.com/maps/search/?api=1&query=Grandes%20%C3%89curies%20Chantilly",
+   "credit": "Dguendel, Wikimedia Commons, CC BY 4.0",
+   "creditUrl": "https://commons.wikimedia.org/wiki/File:Château_de_Chantilly,_the_Grandes_écuries.JPG"
+  },
+  "items": [
+   {
+    "category": "Eşarp desenli ipek bluz (kahraman)",
+    "brand": "Zimmermann (Vakko)",
+    "name": "Çok renkli desenli bluz: at, eyer, halat ve harita desenli ipek eşarp baskı, dik yaka, uzun mendil kollar, belde düğüm",
+    "price": 148950,
+    "url": "https://www.vakko.com/bluz/cok-renkli-desenli-bluz-p-M407898484-0085",
+    "note": "Sayfada 'Muhteşem Hafta +%10 İndirim' etiketi var (26.11)"
+   },
+   {
+    "category": "Düz paça pantolon",
+    "brand": "Ceren Ocak",
+    "name": "Straight-Leg Pants, ekru; ince düz paça, temiz kesim",
+    "price": 17770,
+    "url": "https://cerenocak.com/products/straight-leg-pants"
+   },
+   {
+    "category": "Binici çizmesi",
+    "brand": "Derimod",
+    "name": "Kahverengi deri diz boyu binici çizmesi, düz konç, 3 cm alçak topuk, yuvarlak burun (WF160014DF)",
+    "price": 8049.3,
+    "url": "https://derimod.com.tr/products/kadin-kahverengi-deri-cizme-wf160014df-5637145360",
+    "note": "11.499 → 8.049,30 TL sepette (%30, Efsane Final) · 26.11 itibarıyla"
+   },
+   {
+    "category": "Eyer çanta (statü objesi)",
+    "brand": "Burberry (Occasion)",
+    "name": "Burberry Bridle bordo bizon derisi eyer çanta, altın 'b' toggle kilit",
+    "price": 55079.1,
+    "url": "https://www.occasion.com.tr/burberry-bridle-kadin-bordo-canta-8115652/",
+    "note": "135.990 → 61.199 TL, sepette %10 ile 55.079,10 TL (%59) · 26.11 itibarıyla stokta"
+   },
+   {
+    "category": "Burgu zincir bileklik",
+    "brand": "Burberry (Occasion)",
+    "name": "Kalın burgu formlu altın renkli zincir bileklik (925 gümüş üzeri altın renk)",
+    "price": 12904.2,
+    "url": "https://www.occasion.com.tr/burberry-kadin-altin-bileklik-8085313/",
+    "note": "47.795 → 14.338 TL, sepette %10 ile 12.904,20 TL (%73) · 26.11 itibarıyla stokta"
+   },
+   {
+    "category": "Halat dokulu küpe",
+    "brand": "Ipekyol",
+    "name": "Altın dokulu küpe: halat gibi sarılı, kapı tokmağı formlu halka",
+    "price": 999,
+    "url": "https://www.ipekyol.com.tr/urun/altin-dokulu-kupe-41759"
+   },
+   {
+    "category": "Kemerli eldiven",
+    "brand": "Koton",
+    "name": "Taba suni deri eldiven, bilekte altın tokalı kemer, peluş manşet, dokunmatik",
+    "price": 599.99,
+    "url": "https://www.koton.com/dokunmatik-ozellikli-kemerli-pelus-detayli-katlanabilir-suni-deri-eldiven-taba-4183638/"
+   },
+   {
+    "category": "Saat",
+    "brand": "Audemars Piguet",
+    "name": "Royal Oak Mini Frosted Gold 23 mm, sarı altın, sedef kadran (67630BA)",
+    "price": 0,
+    "url": "https://www.audemarspiguet.com/com/en/watch-collection/royal-oak/67630BA.OO.1312BA.03-B.html",
+    "note": "Fiyat talep üzerine (AP butikleri)"
+   }
+  ]
  }
 ]
